@@ -1,0 +1,320 @@
+<html>
+<head>
+<link rel="stylesheet" href="/git-librehealthehr/interface/themes/style_purple.css" type="text/css">
+
+<script language="JavaScript">
+
+function openNewForm(sel) {
+ top.restoreSession();
+  FormNameValueArray = sel.split('formname=');
+  if(FormNameValueArray[1] == 'newpatient')
+   {
+    parent.location.href = sel
+   }
+  else
+   {
+	parent.Forms.location.href = sel;
+   }
+}
+function toggleFrame1(fnum) {
+  top.frames['left_nav'].document.forms[0].cb_top.checked=false;
+  top.window.parent.left_nav.toggleFrame(fnum);
+ }
+</script>
+<style type="text/css">
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30;
+}
+
+</style>
+<script type="text/javascript" language="javascript">
+
+var timeout	= 500;
+var closetimer	= 0;
+var ddmenuitem	= 0;
+var oldddmenuitem = 0;
+var flag = 0;
+
+// open hidden layer
+function mopen(id)
+{
+	// cancel close timer
+	//mcancelclosetime();
+	
+	flag=10;
+
+	// close old layer
+	//if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	//if(ddmenuitem) ddmenuitem.style.display = 'none';
+
+	// get new layer and show it
+        oldddmenuitem = ddmenuitem;
+	ddmenuitem = document.getElementById(id);
+        if((ddmenuitem.style.visibility == '')||(ddmenuitem.style.visibility == 'hidden')){
+            if(oldddmenuitem) oldddmenuitem.style.visibility = 'hidden';
+            if(oldddmenuitem) oldddmenuitem.style.display = 'none';
+            ddmenuitem.style.visibility = 'visible';
+            ddmenuitem.style.display = 'block';
+        }else{
+            ddmenuitem.style.visibility = 'hidden';
+            ddmenuitem.style.display = 'none';
+        }
+}
+// close showed layer
+function mclose()
+{
+	if(flag==10)
+	 {
+	  flag=11;
+	  return;
+	 }
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+}
+
+// close layer when click-out
+document.onclick = mclose;
+//=================================================
+function findPosX(id)
+  {
+    obj=document.getElementById(id);
+	var curleft = 0;
+    if(obj.offsetParent)
+        while(1)
+        {
+          curleft += obj.offsetLeft;
+          if(!obj.offsetParent)
+            break;
+          obj = obj.offsetParent;
+        }
+    else if(obj.x)
+        curleft += obj.x;
+   PropertyWidth=document.getElementById(id).offsetWidth;
+   if(PropertyWidth>curleft)
+    {
+	 document.getElementById(id).style.left=0;
+	}
+  }
+
+  function findPosY(obj)
+  {
+    var curtop = 0;
+    if(obj.offsetParent)
+        while(1)
+        {
+          curtop += obj.offsetTop;
+          if(!obj.offsetParent)
+            break;
+          obj = obj.offsetParent;
+        }
+    else if(obj.y)
+        curtop += obj.y;
+    return curtop;
+  }
+</script>
+
+</head>
+<body class="bgcolor2">
+<dl>
+<!--<table   style="border:solid 1px black" cellspacing="0" cellpadding="0">
+ <tr>
+    <td valign="top"></td>
+  </tr>
+</table>-->
+<!-- DISPLAYING HOOKS STARTS HERE -->
+<!-- DISPLAYING HOOKS ENDS HERE -->
+<table cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td valign="top"><ul id="sddm"><li><a href='JavaScript:void(0);' id='enc2' onclick=" return top.window.parent.left_nav.loadFrame2('enc2','RBot','patient_file/encounter/encounter_top.php')">Encounter Summary</a></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('1');" >Administrative</a><div id='1' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=fee_sheet')" href='JavaScript:void(0);'>Fee Sheet</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=misc_billing_options')" href='JavaScript:void(0);'>Misc Billing Options HCFA</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=newpatient')" href='JavaScript:void(0);'>New Encounter Form</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=procedure_order')" href='JavaScript:void(0);'>Procedure Order</a></td></tr></table></div></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('2');" >Clinical</a><div id='2' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=care_plan')" href='JavaScript:void(0);'>Care Plan</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=clinical_instructions')" href='JavaScript:void(0);'>Clinical Instructions</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=functional_cognitive_status')" href='JavaScript:void(0);'>Functional and Cognitive Status</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=observation')" href='JavaScript:void(0);'>Observation</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=ros')" href='JavaScript:void(0);'>Review Of Systems</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=reviewofs')" href='JavaScript:void(0);'>Review of Systems Checks</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=soap')" href='JavaScript:void(0);'>SOAP</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=dictation')" href='JavaScript:void(0);'>Speech Dictation</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=vitals')" href='JavaScript:void(0);'>Vitals</a></td></tr></table></div></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('3');" >TESTING</a><div id='3' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_acute_otitis_externa')" href='JavaScript:void(0);'>Acute Otitis Externa (AOE) Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_asthma')" href='JavaScript:void(0);'>Asthma Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_chronic_kidney_disease')" href='JavaScript:void(0);'>Chronic Kidney Disease Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_diabetes')" href='JavaScript:void(0);'>Diabetes Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_heart_failure')" href='JavaScript:void(0);'>Heart Failure Quality Reporting </a></td></tr></table></div></li></table></div></li></ul><div style="clear:both"></div></td>
+  </tr>
+</table>
+</dl>
+
+</body>
+</html>
+	<html>
+	<head>
+	<link rel=stylesheet href="/git-librehealthehr/interface/themes/style_purple.css" type="text/css">
+	<title>Form: Asthma</title>
+	</head>
+	<body background="" topmargin=0 rightmargin=0 leftmargin=2 bottommargin=0 marginwidth=2 marginheight=0>
+	<html><head>
+<link rel=stylesheet href="<?echo $css_header;?>" type="text/css">
+</head>
+<body  bgcolor="#dddddd"  topmargin=0 rightmargin=0 leftmargin=2 bottommargin=0 marginwidth=2 marginheight=0>
+<font size=2>
+<form method=post action="<?echo $rootdir;?>/forms/pqrs_form_asthma/save.php?mode=new" name="my_form">
+<br>
+<span class="title"><center>Asthma Quality Reporting</center></span><br><br>
+<center><a href="javascript:top.restoreSession();document.my_form.submit();" class="link_submit">[Save]</a>
+You must EDIT the form after saving and reviewing to finalize
+<a href="/git-librehealthehr/interface/patient_file/encounter/encounter_top.php" class="link_submit"
+ onclick="top.restoreSession()">[Don't Save]</a></center>
+<br>
+
+<b><u>Client and Service Information</u></b><br><br>
+<b>Name:</b>&nbsp; Jonathan&nbsp&nbsp;Test
+<br> <br>
+
+<b><u>Purpose of Form</u></b><br>
+<textarea cols=120 rows=3 wrap=virtual name="purpose" >To ensure quality care and reporting on patients with Asthma.</textarea>
+<br><br>
+
+<table>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0053 <a target="_blank" href="#" title="(NQF #0047)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Asthma: Pharmacologic Therapy for Persistent Asthma - Ambulatory Care Setting <a target="_blank" href="#" title="National Quality Strategy Domain: Effective Clinical Care"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was patient prescribed long-term asthma control medication? <a target="_blank" href="#" title="Medication prescribed for persistent asthma?"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Asthma0053" value="1038F">Persistent asthma (mild, moderate or severe). 
+	 <a target="_blank" href="#" title="(1038F)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0053" value="4140F">Inhaled corticosteroids prescribed. 
+	 <a target="_blank" href="#" title="(4140F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0053" value="4144F">Alternative long-term control medication prescribed. 
+	 <a target="_blank" href="#" title="(4144F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0053" value="4140F:2P">Documentation of patient reason(s) for not prescribing inhaled corticosteroids or alternative long-term control medication (eg, patient declined, other patient reason). 
+	 <a target="_blank" href="#" title="(4140F:2P) (Patient Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0053" value="4140F:8P">Inhaled corticosteroids or alternative long-term control medication not prescribed, reason not otherwise specified. 
+	 <a target="_blank" href="#" title="(4140F:8P) (Patient Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0110 <a target="_blank" href="#" title="(NQF 0041)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Preventive Care and Screening: Influenza Immunization <a target="_blank" href="#" title="National Quality Strategy Domain: Community/Population Health"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization? <a target="_blank" href="#" title="Patients 6 months and older seen for a visit between October 1 and March 31 OR who reported previous receipt of an influenze immunization."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Asthma0110" value="G8482">Influenza immunization administered or previously received. 
+	 <a target="_blank" href="#" title="(G8482) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0110" value="G8483">Influenza immunization not administered, reason documented. (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons). 
+	 <a target="_blank" href="#" title="(G8483) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0110" value="G8484">Influenza immunization was not administered, reason not given. 
+	 <a target="_blank" href="#" title="(G8484) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0128 <a target="_blank" href="#" title="(NQF #0421)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan <a target="_blank" href="#" title="National Quality Strategy Domain: Community/Population Health NOTE: Normal parameters: Age 65 years and older BMI &ge; 23 and &lt; 30 kg/m2 Age 18 - 64 years BMI &ge; 18.5 and &lt; 25 kg/m2."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was height and weight measured and recorded within 6 months of the encounter and, if BMI is outside of normal parameters, was a follow-up plan documented? <a target="_blank" href="#" title="A patient is not eligible if one or more of the following reasons are documented: Patient is receiving palliative care, is pregnant, refuses BMI measurement, and any other reason documented in the medical record by the provider why BMI measurement was not appropriate."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Asthma0128" value="G8420">BMI is documented within normal parameters and no follow-up plan is required. 
+	 <a target="_blank" href="#" title="(G8420) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0128" value="G8417">BMI is documented above normal parameters and a follow-up plan is documented. 
+	 <a target="_blank" href="#" title="(G8417) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0128" value="G8418">BMI is documented below normal parameters and a follow-up plan is documented. 
+	 <a target="_blank" href="#" title="(G8418) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0128" value="G8421">BMI not documented and no reason is given. 
+	 <a target="_blank" href="#" title="(G8421) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0128" value="G8419">BMI documented outside normal parameters, no follow-up plan documented, no reason given. 
+	 <a target="_blank" href="#" title="(G8419) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0130 <a target="_blank" href="#" title="(NQF #0419)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Documentation of Current Medications in the Medical Record <a target="_blank" href="#" title="National Quality Strategy Domain: Patient Safety"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Are current medications documented in the patient's medical record? <a target="_blank" href="#" title="Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient’s current medications."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Asthma0130" value="G8427">Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient’s current medications. 
+	 <a target="_blank" href="#" title="(G8427) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0130" value="G8430">Eligible professional attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible professional. 
+	 <a target="_blank" href="#" title="(G8430) (Other Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0130" value="G8428">Current list of medications not documented as obtained, updated, or reviewed by the eligible professional, reason not given. 
+	 <a target="_blank" href="#" title="(G8428) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0226 <a target="_blank" href="#" title="(NQF #0028)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention <a target="_blank" href="#" title="National Quality Strategy Domain: Community / Population Health"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user? <a target="_blank" href="#" title="Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Asthma0226" value="4004F">Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user. 
+	 <a target="_blank" href="#" title="(4004F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0226" value="1036F">Current tobacco non-user. 
+	 <a target="_blank" href="#" title="(1036F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0226" value="4004F:1P">Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons). 
+	 <a target="_blank" href="#" title="(4004F:1P) (Medical Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0226" value="4004F:8P">Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified. 
+	 <a target="_blank" href="#" title="(4004F:8P) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0402 <a target="_blank" href="#" title="(NQF #0000)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Tobacco Use and Help with Quitting Among Adolescents <a target="_blank" href="#" title="National Quality Strategy Domain: Community / Population Health"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was patient screened for tobacco use within 18 months? <a target="_blank" href="#" title="Screened during the measurement period or the six months prior to the measurement period AND received tobacco cessation counseling intervention if identified as a tobacco user."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Asthma0402" value="G9458">Patient documented as tobacco user AND received tobacco cessation intervention (must include at least one of the following: advice given to quit smoking or tobacco use, counseling on the benefits of quitting smoking or tobacco use, assistance with or referral to external smoking or tobacco cessation support programs, or current enrollment in smoking or tobacco use cessation program) if identified as a tobacco user. 
+	 <a target="_blank" href="#" title="(G9458) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0402" value="G9459">Currently a tobacco non-user. 
+	 <a target="_blank" href="#" title="(G9459)(Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Asthma0402" value="G9460">Tobacco assessment OR tobacco cessation intervention not performed, reason not given. 
+	 <a target="_blank" href="#" title="(G9460) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td>	<p><br><p>	</td> </tr>
+
+<tr>	<td>
+	<b>Additional notes and recommendations:</b><br>
+	<textarea cols=83 rows=1 wrap=virtual  name="recommendation" ></textarea><br><br>
+	<br><br>
+</td>	</tr>
+
+<tr>	<td>
+	<center><a href="javascript:top.restoreSession();document.my_form.submit();" class="link_submit">[Save]</a>
+	<a href="/git-librehealthehr/interface/patient_file/encounter/encounter_top.php" class="link_submit"
+ 	onclick="top.restoreSession()">[Don't Save]</a></center>
+</td></tr>
+
+</table>
+
+</form>
+	</body>
+	</html>
+	

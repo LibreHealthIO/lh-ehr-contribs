@@ -1,0 +1,157 @@
+Coronary Artery Bypass Graft
+
+0043
+(NQF #0134)
+
+Coronary Artery Bypass Graft (CABG): Use of Internal Mammary Artery (IMA) in Patients with Isolated CABG Surgery
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient undergoing isolated CABG receive an IMA graft?
+.
+
+IMA graft performed for primary, isolated CABG.
+(4110F)(Performance Met)
+4110F
+
+Documentation of medical reason(s) for not performing an IMA graft for primary, isolated CABG procedure. 
+(4110F:1P) (Medical Performance Exclusion) (eg, subclavian stenosis, previous cardiac or thoracic surgery, previous mediastinal radiation, emergent or salvage procedure, no bypassable left anterior descending artery disease)
+4110F:1P
+
+IMA graft not performed for primary, isolated CABG procedure, reason NOS.
+(4110F:8P) (Performance Not Met)
+4110F:8P
+
+X
+y
+y
+
+0044
+(NQF #0236)
+
+Coronary Artery Bypass Graft (CABG): Preoperative Beta-Blocker in Patients with Isolated CABG Surgery
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient receive a beta-blocker within 24 hours prior to surgical incision?
+.
+
+Beta blocker administered.
+(4115F) (Performance Met)
+4115F
+
+Documentation of medical reason(s) for not administering beta blocker.
+(4115F:1P) (Medical Performance Exclusion) (eg, not indicated, contraindicated, other medical reason)
+4115F:1P
+
+Beta blocker not administered, reason NOS.
+(4115F:8P) (Performance Not Met)
+4115F:8P
+
+X
+y
+y
+
+0164
+(NQF #0129)
+
+Coronary Artery Bypass Graft (CABG): Prolonged Intubation
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control. 
+
+Did the patient undergoing isolated CABG require intubation > 24 hours following exit from the operating room?
+.
+
+Prolonged postoperative intubation (> 24 hrs) required.
+(G8569) (Performance Met, INVERSE MEASURE)
+G8569
+
+Prolonged postoperative intubation (> 24 hrs) not required.
+(G8570) (Performance Not Met, INVERSE MEASURE)
+G8570
+
+X
+y
+y
+
+0165
+(NQF #0130)
+
+Coronary Artery Bypass Graft (CABG): Deep Sternal Wound Infection Rate
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control.
+
+Did patient, within 30 days postoperative, develop deep sternal wound infection involving muscle, bone, and/or mediastinum require operative intervention?
+Patient must have ALL of the following conditions: 1.) wound opened with excision of tissue (incision and drainage) or re-exploration of mediastinum, 2.) positive culture unless patient is on antibiotics at time of culture or no culture obtained, and 3.) treatment with antibiotics beyond perioperative prophylaxis.
+
+Development of deep sternal wound infection/mediastinitis.
+(G8571) (Performance Met, INVERSE MEASURE)
+G8571
+
+No deep sternal wound infection/mediastinitis.
+(G8572) (Performance Not Met, INVERSE MEASURE)
+G8572
+
+X
+y
+y
+
+0166
+(NQF #0131)
+
+Coronary Artery Bypass Graft (CABG): Stroke
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control.
+
+Did patient develop a stroke after undergoing isolated CABG surgery?
+Any confirmed neurological deficit of abrupt onset caused by a disturbance in blood supply to the brain) that did not resolve within 24 hours.
+
+Stroke following isolated CABG surgery.
+(G8573) (Performance Met, INVERSE MEASURE)
+G8573
+
+No stroke following isolated CABG surgery.
+(G8574) (Performance Not Met, INVERSE MEASURE)
+G8574
+
+X
+y
+y
+
+0167
+(NQF 0114)
+
+Coronary Artery Bypass Graft (CABG): Postoperative Renal Failure
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control.
+
+Did patient undergoing isolated CABG surgery develop postoperative renal failure or require dialysis?
+Definition of renal failure/dialysis requirement - patient had acute renal failure or worsening renal function resulting in one of the following: 1) increase of serum creatinine to = 4.0 mg/dL or 3x most recent preoperative creatinine level (acute rise must be at least 0.5 mg/dL), or 2) a new requirement for dialysis postoperatively.
+
+Developed postoperative renal failure or required dialysis.
+(G8575) (Performance Met, INVERSE MEASURE)
+G8575
+
+No postoperative renal failure/dialysis not required.
+(G8576) (Performance Not Met, INVERSE MEASURE)
+G8576
+
+X
+y
+y
+
+0168
+(NQF #0115)
+
+Coronary Artery Bypass Graft (CABG): Surgical Re-Exploration
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control. 
+
+Did patient require a return to the operating room during the current hospitalization for mediastinal bleeding with or without tamponade, graft occlusion, valve dysfunction, or other cardiac reason?
+.
+
+Re-exploration required due to mediastinal bleeding.
+(G8577) (Performance Met, INVERSE MEASURE)
+G8577
+
+Re-exploration not required due to mediastinal bleeding.
+(G8578) (Performance Not Met, INVERSE MEASURE)
+G8578
+
+X
+y
+n
+

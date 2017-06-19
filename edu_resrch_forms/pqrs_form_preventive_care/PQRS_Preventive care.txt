@@ -1,0 +1,245 @@
+Preventive Care
+0039
+(NQF #0046)
+Screening for Osteoporosis for Women Aged 65-85 Years of Age
+National Quality Strategy Domain: Effective Clinical Care
+Was a central Dual-energy X-Ray Absorptiometry (DXA) performed?
+.
+Patient record includes documented results of a central Dual-energy X-Ray Absorptiometry (DXA).
+(G8399) (Performance Met)
+G8399
+
+Clinician documented that patient was not an eligible candidate for screening.
+(G8401) (Other Performance Exclusion)
+G8401
+
+Patient with central DXA results not documented, reason not given.
+(G8400) (Performance Not Met)
+G8400
+X
+y
+y
+
+0048
+(NQF #0000)
+Urinary Incontinence: Assessment of Presence or Absence of Urinary Incontinence in Women Aged 65 Years and Older
+National Quality Strategy Domain: Effective Clinical Care
+Was patient assessed for the presence or absence of urinary incontinence within 12 months?
+Definition: Urinary Incontinence – Any involuntary leakage of urine.
+Presence or absence of urinary incontinence assessed.
+(1090F) (Performance Met)
+1090F
+Documentation of medical reason(s) for not assessing for the presence or absence of urinary incontinence.
+(1090F:1P) (Medical Performance Exclusion)
+1090F:1P
+Presence or absence of urinary incontinence not assessed, reason not otherwise specified.
+(1090F:8P) (Performance Not Met)
+1090F:8P
+X
+y
+y
+
+0110
+(NQF 0041)
+Preventive Care and Screening: Influenza Immunization
+National Quality Strategy Domain: Community/Population Health
+
+Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization?
+
+Patients 6 months and older seen for a visit between October 1 and March 31 OR who reported previous receipt of an influenze immunization.
+
+Influenza immunization administered or previously received.
+(G8482) (Performance Met)
+G8482
+
+Influenza immunization not administered, reason documented. (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons).
+(G8483) (Performance Met)
+G8483
+
+Influenza immunization was not administered, reason not given.
+(G8484) (Performance Not Met)
+G8484
+X
+y
+y
+
+0111
+(NQF #0043)
+Pneumonia Vaccination Status for Older Adults
+National Quality Strategy Domain: Community/Population Health\\nNOTE: While the measure provides credit for adults 65 years of age and older who have ever received either the PCV13 or PPSV23 vaccine (or both),according to ACIP recommendations, patients should receive both vaccines. The order and timing of the vaccinations depends on certain patient characteristics,and are described in more detail in the ACIP recommendations.
+Did patient ever receive a pneumococcal vaccination?
+.
+Pneumococcal vaccine administered or previously received.
+(4040F) (Performance Met)
+4040F
+
+Pneumococcal vaccine was not administered or previously received, reason not otherwise specified.
+(4040F:8P) (Performance Not Met)
+4040F:8P
+X
+y
+y
+
+0112
+(NQF #2372)
+Breast Cancer Screening
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: Patients with one or more mammograms any time on or between October 1, 27 months prior to December 31 of the measurement period, not to precede the patient’s 50th birthday.
+Are the patient's mammography results documented and reviewed?
+Patient's mammogram results documented and reviewed within 27 months.
+Screening mammography results documented and reviewed.
+(3014F) (Performance Met)
+3014F
+
+Documentation of medical reason(s) for not performing a mammogram (i.e., women who had a bilateral mastectomy or two unilateral mastectomies).
+(3014F:1P) (Medical Performance Exclusion)
+3014F:1P
+
+Screening mammography results were not documented and reviewed, reason not otherwise specified.
+(3014F:8P) (Performance Not Met)
+3014F:1P
+X
+y
+y
+
+0113
+(NQF #0034)
+Colorectal Cancer Screening
+National Quality Strategy Domain: Effective Clinical Care/
+Was the patient screened for colorectal cancer?
+Patients with one or more screenings for colorectal cancer. Appropriate screenings are defined by any one of the following criteria below:\\nFecal occult blood test (FOBT) during the measurement period\\nFlexible sigmoidoscopy during the measurement period or the four years prior to the measurement period\\nColonoscopy during the measurement period or the nine years prior to the measurement period
+
+Colorectal cancer screening results documented and reviewed.
+(3071F) (Performance Met)
+3071F
+
+Documentation of medical reason(s) for not performing a colorectal cancer screening (i.e., diagnosis of colorectal cancer or total colectomy).
+(3071F:1P) (Medical Performance Exclusion)
+3071F:1P
+
+Colorectal cancer screening results were not documented and reviewed, reason not otherwise specified.
+(3071F:8P) (Performance Not Met)
+3071F:8P
+X
+y
+y
+
+0128
+(NQF #0421)
+Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health\\nNOTE: Normal parameters:\\nAge 65 years and older BMI >= 23 and < 30 kg/m2\\nAge 18 - 64 years BMI >= 18.5 and < 25 kg/m2.
+
+Was height and weight measured and recorded within 6 months of the encounter and, if BMI is outside of normal parameters, was a follow-up plan documented?
+A patient is not eligible if one or more of the following reasons are documented: Patient is receiving palliative care, is pregnant, refuses BMI measurement, and any other reason documented in the medical record by the provider why BMI measurement was not appropriate.
+
+BMI is documented within normal parameters and no follow-up plan is required.
+(G8420) (Performance Met)
+G8420
+
+BMI is documented above normal parameters and a follow-up plan is documented.
+(G8417) (Performance Met)
+G8417
+
+BMI is documented below normal parameters and a follow-up plan is documented.
+(G8418) (Performance Met)
+G8418
+
+BMI not documented and no reason is given.
+(G8421) (Performance Not Met)
+G8421
+
+BMI documented outside normal parameters, no follow-up plan documented, no reason given.
+(G8419) (Performance Not Met)
+G8419
+X
+y
+y
+
+0134
+(NQF #0418)
+Preventive Care and Screening: Screening for Clinical Depression and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health
+Was patient screened for clinical depression with a standard screening tool AND if positive, a follow-up plan is documented?
+Patients aged 12 and older screened for depression with a follow-up plan on the date of the encounter.
+
+Screening for clinical depression is documented as being positive AND a follow-up plan is documented.
+(G8431) (Performance Met)
+G8431
+
+Screening for clinical depression is documented as negative, a follow-up plan is not required.
+(G8510) (Performance Met)
+G8510
+
+Screening for clinical depression not documented, documentation stating the patient is not eligible.
+(G8433) (Other Performance Exclusion)
+G8433
+
+Screening for clinical depression documented as positive, a follow-up plan not documented, documentation stating the patient is not eligible.
+(G8940) (Other Performance Exclusion)
+G8940
+
+Clinical depression screening not documented, reason not given.
+(G8432) (Performance Not Met)
+G8432
+
+Screening for clinical depression documented as positive, follow-up plan not documented, reason not given.
+(G8511) (Performance Not Met)
+G8511
+X
+y
+y
+
+0226
+(NQF #0028)
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons).
+(4004F:1P) (Medical Performance Exclusion)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+X
+y
+y
+
+
+0431
+(NQF #2152)
+Preventive Care and Screening: Unhealthy Alcohol Use: Screening & Brief Counseling
+National Quality Strategy Domain: Community/ Population Health
+Was patient screened for unhelathy alcohol use using a systamtic screening method AND those identified as unhealthy alcohol users receive counseling?
+Patients screened for unhealthy alcholol use in the last 24 months.
+
+Patient identified as an unhealthy alcohol user when screened for unhealthy alcohol use using a systematic screening method and received brief counseling.
+(G9621) (Performance Met)
+G9621
+
+Patient not identified as an unhealthy alcohol user when screened for unhealthy alcohol use using a systematic screening method.
+(G9622) (Performance Met)
+G9622
+
+Documentation of medical reason(s) for not screening for unhealthy alcohol use (e.g., limited life expectancy, other medical reasons).
+(G9623) (Medical Performance Exclusion)
+G9623
+
+Patient not screened for unhealthy alcohol screening using a systematic screening method OR patient did not receive brief counseling, reason not given.
+(G9624) (Performance Not Met)
+G9624
+X
+y
+n
+
+

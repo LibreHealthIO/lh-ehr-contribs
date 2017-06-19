@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS pqrs_form_multiple_chronic_conditions (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `date` datetime DEFAULT NULL,
+  `pid` bigint(20) DEFAULT NULL,
+  `user` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `groupname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `authorized` tinyint(4) DEFAULT NULL,
+  `activity` tinyint(4) DEFAULT NULL, 
+  `purpose` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0047` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0110` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0128` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0130` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0131` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0134` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0154` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0155` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Multiple_Chronic_Conditions0238` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `recommendation` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `finalize` varchar(3) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)

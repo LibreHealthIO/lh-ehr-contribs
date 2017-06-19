@@ -1,0 +1,161 @@
+General Surgery
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient’s current medications.
+
+Current medications documented.
+(G8427) (Performance Met)
+G8427
+
+Eligible professional attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible professional.
+(G8430) (Other Performance Exclusion)
+G8430
+
+Current list of medications not documented as obtained, updated, or reviewed by the eligible professional, reason not given.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons).
+(4004F:1P) (Medical Performance Exclusion)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+
+X
+y
+y
+
+0354
+(NQF #0000)
+
+Anastomotic Leak Intervention
+National Quality Strategy Domain: Patient Safety\\nNOTE: A lower calculated performance rate for this measure indicates better clinical care or control. The “Performance Not Met” numerator option for this measure is the representation of the better clinical quality or control. Reporting that numerator option will produce a performance rate that trends closer to 0%, as quality increases. For inverse measures a rate of 100% means all of the denominator eligible patients did not receive the appropriate care or were not in proper control, and therefore an inverse measure at 100% does not qualify for reporting purposes, however any reporting rate less than 100% does qualify.
+
+Did patient require an anastomotic leak intervention following gastric bypass or colectomy surgery?
+Patients aged 18 years and older.
+
+Intervention for presence of leak of endoluminal contents through an anastomosis required.
+(G9306) (Performance Met, INVERSE MEASURE)
+G9306
+
+Intervention for presence of leak of endoluminal contents through an anastomosis not required.
+(G9305) (Performance Not Met, INVERSE MEASURE)
+G9305
+
+X
+y
+y
+
+
+0355
+(NQF #0000)
+
+Unplanned Reoperation within the 30 Day Postoperative Period
+National Quality Strategy Domain: Patient Safety\\nNOTE: A lower calculated performance rate for this measure indicates better clinical care or control. The “Performance Not Met” numerator option for this measure is the representation of the better clinical quality or control. Reporting that numerator option will produce a performance rate that trends closer to 0%, as quality increases. For inverse measures a rate of 100% means all of the denominator eligible patients did not receive the appropriate care or were not in proper control, and therefore an inverse measure at 100% does not qualify for reporting purposes, however any reporting rate less than 100% does qualify.
+
+Did Patient have an Unplanned Reoperation within the 30 Day Postoperative Period?
+(INVERSE MEASURE)
+
+Unplanned return to the operating room for a surgical procedure, for any reason, within 30 days of the principal operative procedure.
+(G9308) (Performance Met, INVERSE MEASURE)
+G9308
+
+No return to the operating room for a surgical procedure, for any reason, within 30 days of the principal operative procedure.
+(G9307)(Performance Not Met, INVERSE MEASURE)
+G9307
+
+X
+y
+y
+
+0356
+(NQF #0000)
+
+Unplanned Hospital Readmission within 30 Days of Principal Procedure
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: A lower calculated performance rate for this measure indicates better clinical care or control. The “Performance Not Met” numerator option for this measure is the representation of the better clinical quality or control. Reporting that numerator option will produce a performance rate that trends closer to 0%, as quality increases. For inverse measures a rate of 100% means all of the denominator eligible patients did not receive the appropriate care or were not in proper control, and therefore an inverse measure at 100% does not qualify for reporting purposes, however any reporting rate less than 100% does qualify.
+
+Did patient have an unplanned hospital readmission within 30 days of the principal procedure?
+Inpatient readmission to the same hospital for any reason or an outside hospital (if known to the surgeon), within 30 days of the principal surgical procedure.
+
+Unplanned hospital readmission within 30 days of principal procedure.
+(G9310) (Performance Met, INVERSE MEASURE)
+G9310
+
+No unplanned hospital readmission within 30 days of principal procedure.
+(G9309) (Performance Not Met, INVERSE MEASURE)
+G9309
+
+X
+y
+y
+
+0357
+(NQF #0000)
+
+Surgical Site Infection (SSI)
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: A lower calculated performance rate for this measure indicates better clinical care or control. The “Performance Not Met” numerator option for this measure is the representation of the better clinical quality or control. Reporting that numerator option will produce a performance rate that trends closer to 0%, as quality increases. For inverse measures a rate of 100% means all of the denominator eligible patients did not receive the appropriate care or were not in proper control, and therefore an inverse measure at 100% does not qualify for reporting purposes, however any reporting rate less than 100% does qualify.
+
+Did patient have a surgical site infection?
+.
+
+Surgical site infection.
+(G9312) (Performance Met, INVERSE MEASURE)
+G9312
+
+No surgical site infection.
+(G9311)(Performance Not Met, INVERSE MEASURE)
+G9311
+
+X
+y
+y
+
+0358
+(NQF #0000)
+
+Patient-Centered Surgical Risk Assessment and Communication
+National Quality Strategy Domain: Person and Caregiver-Centered Experience and Outcomes
+
+Did patient undergoing a non-emergency surgery have their personalized risks of postoperative complications assessed by their surgical team prior to surgery?
+.
+
+Documentation of patient-specific risk assessment with a risk calculator based on multi-institutional clinical data, the specific risk calculator used, and communication of risk assessment from risk calculator with the patient or family.
+(G9316) (Performance Met)
+G9316
+
+Documentation of patient-specific risk assessment with a risk calculator based on multi-institutional clinical data, the specific risk calculator used, and communication of risk assessment from risk calculator with the patient or family not completed.
+(G9317)(Performance Not Met)
+G9317
+
+X
+y
+n

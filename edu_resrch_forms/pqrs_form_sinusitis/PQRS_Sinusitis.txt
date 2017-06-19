@@ -1,0 +1,145 @@
+Sinusitis
+0130
+(NQF #0419)
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+Are current medications documented in the patient's medical record?
+Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient’s current medications.
+
+Current medications documented.
+(G8427) (Performance Met)
+G8427
+
+Eligible professional attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible professional.
+(G8430) (Other Performance Exclusion)
+G8430
+
+Current list of medications not documented as obtained, updated, or reviewed by the eligible professional, reason not given.
+(G8428) (Performance Not Met)
+G8428
+X
+y
+y
+
+0131
+(NQF #0420)
+Pain Assessment and Follow-Up
+National Quality Strategy Domain: Communication and Care Coordination
+Was pain assessed using a standardized tool and documented if pain is present?
+.
+Pain assessment documented as positive using a standardized tool AND a follow-up plan is documented.
+(G8730)(Performance Met)
+G8730
+
+Pain assessment using a standardized tool is documented as negative, no follow-up plan required.
+(G8731)(Performance Met)
+G8731
+
+Pain assessment NOT documented as being performed, documentation the patient is not eligible for a pain assessment using a standardized tool.
+(G8442) (Other Performance Exclusion)
+G8442
+
+Pain assessment documented as positive, follow-up plan not documented, documentation the patient is not eligible.
+(G8939) (Other Performance Exclusion)
+G8939
+
+No documentation of pain assessment, reason not given.
+(G8732) (Performance Not Met)
+G8732
+
+Pain assessment documented as positive using a standardized tool, follow-up plan not documented, reason not given.
+(G8509) (Performance Not Met)
+G8509
+X
+y
+y
+
+0226
+(NQF #0028)
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons).
+(4004F:1P) (Medical Performance Exclusion)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+X
+y
+y
+
+0331
+(NQF #0000)
+Adult Sinusitis: Antibiotic Prescribed for Acute Sinusitis (Overuse)
+National Quality Strategy Domain: Efficiency and Cost Reduction\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control. The “Performance Not Met” numerator option for this measure is the representation of the better clinical quality or control.
+Was patient prescribed an antiobiotic within 10 days after acute sinusitis/rhinosinusitis systems reported?
+.
+Antibiotic regimen prescribed within10 days after onset of symptoms.
+(G9286) (Performance Met, INVERSE MEASURE)
+G9286
+
+Antibiotic regimen prescribed within 10 days after onset of symptoms for documented medical reason.
+(G9505) (Other Performance Exclusion, INVERSE MEASURE)
+G9505
+Antibiotic regimen not prescribed within 10 days after onset of symptoms.
+(G9287)(Performance Not Met, INVERSE MEASURE)
+G9287
+X
+y
+y
+
+0332
+(NQF #0000)
+Adult Sinusitis: Appropriate Choice of Antibiotic: Amoxicillin With or Without Clavulanate Prescribed for Patients with Acute Bacterial Sinusitis (Appropriate Use)
+National Quality Strategy Domain: Efficiency and Cost Reduction
+Was an antiobitc prescribed to the patient with a diagnosis of acute bacterial sinusitis?
+.
+Amoxicillin, with or without clavulanate, prescribed as a first line antibiotic at the time of diagnosis
+(G9315) (Performance Met)
+G9315
+
+Amoxicillin, with or without clavulanate, not prescribed as first line antibiotic at the time of diagnosis for documented reason (e.g., cystic fibrosis, immotile cilia disorders, ciliary dyskinesia, immune deficiency, prior history of sinus surgery within the past 12 months, anatomic abnormalities, such as deviated nasal septum, resistant organisms, allergy to medication, recurrent sinusitis, chronic sinusitis, or other reasons)
+(G9313) (Other Performance Exclusion)
+G9313
+
+Amoxicillin, with or without clavulanate, not prescribed as first line antibiotic at the time of diagnosis, reason not given
+(G9314)(Performance Not Met)
+G9314
+X
+y
+y
+0333
+(NQF #0000)
+Adult Sinusitis: Computerized Tomography (CT) for Acute Sinusitis (Overuse)\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control. The “Performance Not Met” numerator option for this measure is the representation of the better clinical quality or control.
+National Quality Strategy Domain: Efficiency and Cost Reduction\n
+Was a CT scan performed within 28 days of an acute sinusitis diagnosis?
+CT scan of the paranasal sinuses ordered at the time of diagnosis or received within 28 days.
+
+CT scan of the paranasal sinuses ordered at the time of diagnosis or received within 28 days after date of diagnosis
+(G9349) (Performance Met, INVERSE MEASURE)
+G9349
+
+CT scan of the paranasal sinuses ordered at the time of diagnosis for documented reasons (e.g., persons with sinusitis symptoms lasting at least 7 to 10 days, antibiotic resistance, immunocompromised, recurrent sinusitis, acute frontal sinusitis, acute sphenoid sinusitis, periorbital cellulitis, or other medical).
+(G9348) (Other Performance Exclusion, INVERSE MEASURE)
+G9348
+
+CT scan of the paranasal sinuses not ordered at the time of diagnosis or received within 28 days after date of diagnosis
+(G9350) (Performance Not Met, INVERSE MEASURE)
+G9350
+X
+y
+n
+

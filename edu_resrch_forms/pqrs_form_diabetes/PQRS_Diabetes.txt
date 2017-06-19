@@ -1,0 +1,124 @@
+Diabetes
+0001
+(NQF 0059)
+Diabetes: Hemoglobin A1c Poor Control
+National Quality Strategy Domain: Effective Clinical Care\\nThis is an INVERSE MEASURE: it is desired that performance NOT be met.
+What was the patient's most recent hemoglobin A1c level?
+Most Recent A1c?
+Most recent hemoglobin A1c (HbA1c) level &lt; 7.0%
+(3044F) Performance Not Met, INVERSE MEASURE
+3044F
+Most recent hemoglobin A1c (HbA1c) level 7.0 to 9.0%
+(3045F) Performance Not Met, INVERSE MEASURE
+3045F
+Most recent hemoglobin A1c level &gt; 9.0%
+(3046F) Performance Met, INVERSE MEASURE
+3046F
+Hemoglobin A1c level was not performed during the measurement period (12 months)
+(3046F:8P) Performance Met, INVERSE MEASURE
+3046F:8P
+X
+y
+y
+0110
+(NQF 0041)
+Preventive Care and Screening: Influenza Immunization
+National Quality Strategy Domain: Community/Population Health
+Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization?
+.
+Influenza immunization administered or previously received
+(G8482) (Performance Met)
+G8482
+Influenza immunization not administered, reason documented 
+(G8483) (Performance Met)\\n(e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons)
+G8483
+Influenza immunization was not administered, reason not given
+(G8484) (Performance Not Met)
+G8484
+X
+y
+y
+0117
+(NQF 0055)
+Diabetes: Eye Exam
+National Quality Strategy Domain: Effective Clinical Care
+Did the patient receive an eye screening for diabetic retinal disease this year?
+A retinal or dilated eye exam by an eye care professional this year or had no evidence of retinopathy in an eye exam in the previous year.
+Dilated retinal eye exam with interpretation by an ophthalmologist or optometrist documented and reviewed
+(2022F) (Performance Met)
+2022F
+Seven standard field stereoscopic photos with interpretation by an ophthalmologist or optometrist documented and reviewed
+(2024F) (Performance Met)
+2024F
+Eye imaging validated to match diagnosis from seven standard field stereoscopic photos results documented and reviewed
+(2026F) (Performance Met)
+2026F 
+Low risk for retinopathy (no evidence of retinopathy in the prior year) &#8225 
+(3072F) (Performance Met)<br> &#8225 NOTE: This code can only be used if the encounter was during the measurement period because it indicates that the patient had &quot;no evidence of retinopathy in the prior year&quot;. This code definition indicates results were negative, therefore a result is not required.
+3072F
+Dilated eye exam was not performed, reason not otherwise specified
+(2022F:8P) (Performance Not Met)
+2022F:8P
+X
+y
+y
+0119
+(NQF 0062)
+Diabetes: Medical Attention for Nephropathy
+National Quality Strategy Domain: Effective Clinical Care
+Did the patient receive a nephropathy screening test or have evidence of nephropathy?
+.
+Positive microalbuminuria test result documented and reviewed
+(3060F) (Performance Met)
+3060F
+Negative microalbuminuria test result documented and reviewed
+(3061F) (Performance Met)
+3061F
+Positive macroalbuminuria test result documented and reviewed
+(3062F) (Performance Met)
+3062F
+Documentation of treatment for nephropathy
+(3066F) (Performance Met)\\n(e.g. patient receiving dialysis, patient being treated for ESRD, CRF, ARF, or renal insufficiency, any visit to a nephrologist)
+3066F
+Patient receiving angiotensin converting enzyme (ACE) inhibitor or angiotensin receptor blocker (ARB) therapy
+(G8506) (Performance Met)
+G8506
+Nephropathy screening was not performed, reason not otherwise specified
+(3060F with 8P) (Performance Not Met)
+3060F:8P
+X
+y
+y
+0126
+(NQF 0417)
+Diabetes Mellitus: Diabetic Foot and Ankle Care, Peripheral Neuropathy -- Neurological Evaluation
+National Quality Strategy Domain: Effective Clinical Care
+Did the patient have a lower extremity neurological exam performed at least once within the last 12 months?
+.
+Lower extremity neurological exam performed and documented
+(G8404) (Performance Met)
+G8404
+Lower extremity neurological exam not performed
+(G8405) (Performance Not Met)
+G8405
+X
+y
+y
+0226
+(NQF 0028)
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community/Population Health
+Within the last 24 months:
+.
+Patient screened for tobacco use AND received tobacco cessation intervention if identified as a tobacco user
+(4004F) (Performance Met)
+4004F
+Documentation of medical reason(s) for not screening for tobacco use 
+(eg, limited life expectancy, other)\\n(4004F:1P) (Performance Met)
+4004F:1P
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified
+(4004F:8P) (Performance Not Met)
+4004F:8P
+X
+y
+n

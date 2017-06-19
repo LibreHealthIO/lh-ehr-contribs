@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS pqrs_form_dementia (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `date` datetime DEFAULT NULL,
+  `pid` bigint(20) DEFAULT NULL,
+  `user` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `groupname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `authorized` tinyint(4) DEFAULT NULL,
+  `activity` tinyint(4) DEFAULT NULL, 
+  `purpose` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0047` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0134` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0280` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0281` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0282` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0283` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0284` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0286` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0287` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Dementia0288` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `recommendation` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `finalize` varchar(3) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)

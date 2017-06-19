@@ -1,0 +1,135 @@
+OPEIR
+
+0359
+(NQF #0000)
+
+Optimizing Patient Exposure to Ionizing Radiation: Utilization of a Standardized Nomenclature for Computed Tomography (CT) Imaging Description 
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was the CT imaging report with the imaging study named according to a standardized nomenclature and the standardized nomenclature is used in institution’s computer systems?
+Standardized nomenclature is used in institution’s computer systems, including but not limited to computerized physician ordering system, charge master, radiology information system and electronic health record.
+
+Imaging study named according to standardized nomenclature.
+(G9318)(Performance Met)
+G9318
+
+Imaging study not named according to standardized nomenclature, reason not given.
+(G9319)(Performance Not Met) 
+G9319
+
+X
+y
+y
+
+0360
+(NQF #0000)
+
+Optimizing Patient Exposure to Ionizing Radiation: Count of Potential High Dose Radiation Imaging Studies: Computed Tomography (CT) and Cardiac Nuclear Medicine Studies
+National Quality Strategy Domain: Patient Safety
+
+Are all known previous CT and cardiac nuclear medicine (myocardial perfusion) studies the patient has received in the 12-month period prior to the current study as a count that includes studies from the Radiology Information System, patient-provided radiological history or other source?
+.
+
+Count of previous CT (any type of CT) and cardiac nuclear medicine (myocardial perfusion) studies documented in the 12-month period prior to the current study.
+(G9321)(Performance Met) 
+G9321
+
+Count of previous CT and cardiac nuclear medicine (myocardial perfusion) studies not documented in the 12-month period prior to the current study, reason not given.
+(G9322)(Performance Not Met)
+G9322
+
+X
+y
+y
+
+0361
+(NQF #0000)
+
+Optimizing Patient Exposure to Ionizing Radiation: Reporting to a Radiation Dose Index Registry
+National Quality Strategy Domain: Patient Safety
+
+Was computed tomography (CT) study reported to a radiation dose index registry and include at a minimum selected data elements?
+Detailed information regarding the patient demographic and scanner data elements can be found in the Dose Index Registry Data Dictionary available on the American College of Radiology (ACR) Web site.
+
+CT studies performed reported to a radiation dose index registry with all necessary data elements.
+(G9327)(Performance Met)
+G9327
+
+CT studies performed not reported to a radiation dose index registry, reason not given.
+(G9326)(Performance Not Met)
+G9326
+
+All necessary data elements not included, reason not given.
+(G9324)(Performance Not Met)
+G9324
+
+X
+y
+y
+
+0362
+(NQF #0000)
+
+Optimizing Patient Exposure to Ionizing Radiation: Computed Tomography (CT) Images Available for Patient Follow-up and Comparison Purposes
+National Quality Strategy Domain: Communication and Care Coordination
+
+Does the final report for CT studies document that DICOM format image data are available to non-affiliated external healthcare facilities or entities on a secure, media-free, reciprocally searchable basis with patient authorization for at least a 12-month period after the study?
+Radiology images that are transmitted electronically ONLY, not images recorded on film, CD, or other imaging transmittal form.
+
+Final report documented that DICOM format image data available to non-affiliated external healthcare facilities or entities on a secure, media free, reciprocally searchable basis with patient authorization for at least a 12-month period after the study.
+(G9340)(Performance Met)
+G9340
+
+DICOM format image data available to non-affiliated external healthcare facilities or entities on a secure, media free, reciprocally searchable basis with patient authorization for at least a 12-month period after the study not documented in final report, reason not given.
+(G9329)(Performance Not Met)
+G9329
+
+X
+y
+y
+
+0363
+(NQF #0000)
+
+Optimizing Patient Exposure to Ionizing Radiation: Search for Prior Computed Tomography (CT) Studies Through a Secure, Authorized, Media-Free, Shared Archive
+National Quality Strategy Domain: Communication and Care Coordination
+
+Does the final report of CT study document that a search for DICOM format images was conducted for prior patient CT imaging studies completed at non-affiliated external healthcare facilities or entities within the past 12-months and are available through a secure, authorized, media-free, shared archive prior to an imaging study being performed?
+Radiology images that are transmitted electronically ONLY, not images recorded on film, CD, or other imaging transmittal form.
+
+Search conducted for prior patient CT studies completed at non-affiliated external healthcare facilities or entities within the past 12-months and are available through a secure, authorized, media-free, shared archive prior to an imaging study being performed.
+(G9341)(Performance Met)
+G9341
+
+Due to system reasons search not conducted for DICOM format images for prior patient CT imaging studies completed at non-affiliated external healthcare facilities or entities within the past 12 months that are available through a secure, authorized, media-free, shared archive (e.g., non-affiliated external healthcare facilities or entities does not have archival abilities through a shared archival system).
+(G9344)(System Performance Exclusion)
+G9344
+
+Search not conducted prior to an imaging study being performed for prior patient CT studies completed at non-affiliated external healthcare facilities or entities within the past 12-months and are available through a secure, authorized, media-free, shared archive, reason not given.
+(G9342)(Performance Not Met)
+G9342
+
+X
+y
+y
+
+0364
+(NQF #0000)
+
+Optimizing Patient Exposure to Ionizing Radiation: Appropriateness: Follow-up CT Imaging for Incidentally Detected Pulmonary Nodules According to Recommended Guidelines
+National Quality Strategy Domain: Communication And Care Coordination
+
+Does final report document follow-up recommendations for incidentally detected pulmonary nodules (e.g., follow-up CT imaging studies needed or that no follow-up is needed) based at a minimum on nodule size AND patient risk factors?
+Follow-up Recommendations - No follow-up recommended in the final CT report OR follow-up is recommended within a designated time frame in the final CT report. Recommendations noted in the final CT report should be in accordance with recommended guidelines.
+
+Follow-up recommendations documented according to recommended guidelines for incidentally detected pulmonary nodules (e.g., follow-up CT imaging studies needed or that no follow-up is needed) based at a minimum on nodule size AND patient risk factors.
+(G9345)(Performance Met)
+G9345
+
+Follow-up recommendations not documented according to recommended guidelines for incidentally detected pulmonary nodules, reason not given.
+(G9347)(Performance Not Met)
+G9347
+
+X
+y
+n

@@ -1,0 +1,197 @@
+Inflammatory Bowel Disease
+
+0110
+(NQF 0041)
+
+Preventive Care and Screening: Influenza Immunization
+National Quality Strategy Domain: Community/Population Health
+
+Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization?
+Patients 6 months and older seen for a visit between October 1 and March 31 OR who reported previous receipt of an influenze immunization.
+
+Influenza immunization administered or previously received.
+(G8482) (Performance Met)
+G8482
+
+Influenza immunization not administered, reason documented. (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons).
+(G8483) (Performance Met)
+G8483
+
+Influenza immunization was not administered, reason not given.
+(G8484) (Performance Not Met)
+G8484
+
+X
+y
+y
+
+0111
+(NQF #0043)
+
+Pneumonia Vaccination Status for Older Adults
+National Quality Strategy Domain: Community/Population Health//nNOTE: While the measure provides credit for adults 65 years of age and older who have ever received either the PCV13 or PPSV23 vaccine (or both), according to ACIP recommendations, patients should receive both vaccines. The order and timing of the vaccinations depends on certain patient characteristics, and are described in more detail in the ACIP recommendations.
+
+Did patient ever receive a pneumococcal vaccination?
+.
+
+Pneumococcal vaccine administered or previously received.
+(4040F) (Performance Met)
+4040F
+
+Pneumococcal vaccine was not administered or previously received, reason not otherwise specified.
+(4040F:8P) (Performance Not Met)
+4040F:8P
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons).
+(4004F:1P) (Medical Performance Exclusion)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+
+X
+y
+y
+
+0270
+(NQF #0000)
+
+Inflammatory Bowel Disease (IBD): Preventive Care: Corticosteroid Sparing Therapy
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient prescribed a corticosteroid sparing therapy (e.g., thiopurines, methotrexate, or biologic agents)?
+.
+
+Corticosteroid sparing therapy prescribed.\\nAND Patient who received or are receiving corticosteroids greater than or equal to 10 mg/day of prednisone equivalents for 60 or greater consecutive days or a single prescription equating to 600mg prednisone or greater for all fills within the last twelve months. 
+(G9467, 4142F) (Performance Met)
+G9467 4142F 
+
+Documentation of medical reason(s) for not treating with corticosteroid sparing therapy (e.g., benefits of continuing steroid therapy outweigh the risk of continuing steroid therapy or initiating steroid sparing therapy, patient is receiving the first course of corticosteroids for the treatment of IBD).
+(4142F:1P) (Medical Performance Exclusion)
+4142F:1P
+
+Documentation of patient reason(s) for not treating with corticosteroid sparing therapy (eg, patient refuses to initiate steroid sparing therapy).\\nAND Patient who have received or are receiving corticosteroids greater than or equal to 10 mg/day of prednisone equivalents for 60 or greater consecutive days or a single prescription equating to 600mg prednisone or greater for all fills within the last twelve months.
+(G9467, 4142F:2P) (Patient Performance Exclusion)
+G9467 4142F:2P 
+
+Patient not receiving corticosteroids greater than or equal to 10 mg/day of prednisone equivalents for 60 or greater consecutive days or a single prescription equating to 600mg prednisone or greater for all fills.
+(G9468) (Other Performance Exclusion)
+G9468
+
+Corticosteroid sparing therapy not prescribed, reason not otherwise specified.\\nAND Patient who have received or are receiving corticosteroids greater than or equal to 10 mg/day of prednisone equivalents for 60 or greater consecutive days or a single prescription equating to 600mg prednisone or greater for all fills within the last twelve months.
+(G9467, 4142F:8P) (Performance Not Met)
+G9467 4142F:8P
+
+X
+y
+y
+
+0271
+(NQF #0000)
+
+Inflammatory Bowel Disease (IBD): Preventive Care: Corticosteroid Related Iatrogenic Injury – Bone Loss Assessment
+National Quality Strategy Domain: Effective Clinical Care
+
+Did the patient received doses of corticosteroids greater than or equal to 10 mg/day of prednisone equivalents for 60 or greater consecutive days (or a single prescription equating to 600mg prednisone or greater) for all fills and was patient documented for risk of bone loss during the reporting year or the pervious calendar year?
+Definitions:\\nCorticosteroids - Prednisone equivalents used expressly for the treatment of IBD and not for other indications (including premedication before anti-TNF therapy, non-IBD indications) can be determined using the following: 1 mg of prednisone = 1 mg of prednisolone; 5 mg of cortisone; 4 mg of hydrocortisone; 0.8 mg of triamcinolone; 0.8 mg of methylprednisolone; 0.15 mg of dexamethasone; 0.15 mg of betamethasone.\\nDocumented - Documentation that an assessment for risk of bone loss has been performed or ordered. This includes, but is not limited to, review of systems and medication history, and ordering of Central Dual-energy X-Ray Absorptiometry (DXA) scan.
+
+Within the past 2 years, Central Dual-energy X-Ray Absorptiometry (DXA) ordered and documented review of systems and medication history or pharmacologic therapy (other than minerals/vitamins) for osteoporosis prescribed.\\nAND Patients who have received or are receiving corticosteroids greater than or equal to 10 mg/day of prednisone equivalents for 60 or greater consecutive days or a single prescription equating to 600mg prednisone or greater for all fills.
+(G8861, G9469) (Performance Met)
+G8861 G9469
+
+Patients not receiving corticosteroids greater than or equal to 10 mg/day of prednisone equivalents for 60 or greater consecutive days or a single prescription equating to 600mg prednisone or greater for all fills.
+(G9470) (Other Performance Exclusion)
+G9470
+
+Within the past 2 years, Central Dual-energy X-Ray Absorptiometry (DXA) not ordered and documented, no review of systems and no medication history or pharmacologic therapy (other than minerals/vitamins) for osteoporosis prescribed.\\n AND Patients who have received or are receiving corticosteroids greater than or equal to 10 mg/day of prednisone equivalents for 60 or greater consecutive days or a single prescription equating to 600mg prednisone or greater for all fills.
+(G9472, G9469) (Performance Not Met)
+G9472 G9469
+
+X
+y
+y
+
+0274
+(NQF #0000)
+
+Inflammatory Bowel Disease (IBD): Testing for Latent Tuberculosis (TB) Before Initiating Anti-TNF (Tumor Necrosis Factor) Therapy
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient screened for TB prior to receiving anti-TNF therapy?
+TB screening performed and results interpreted within 6 months prior to therapy.
+
+Documentation that tuberculosis (TB) screening test performed and results interpreted.\\nAND Patients receiving a first course of anti-TNF therapy.
+(3510F, G8868) (Performance Met)
+3510F G8868
+
+Patients not receiving a first course of anti-TNF (tumor necrosis factor) therapy.
+(6150F) (Performance Met)
+6150F
+
+Documentation of medical reason(s) for not performing TB screening test within 6 months prior to receiving a first course of anti-TNF therapy (eg, patient positive for TB and documentation of past treatment; patient recently completed course of anti-TB therapy).
+(3510F:1P) (Medical Performance Exclusion)
+3510F:1P
+
+Documentation of patient reason(s) for not performing TB screening test within 6 months prior to receiving a first course of anti-TNF therapy (eg, patient declined).\\nAND Patients receiving a first course of anti-TNF therapy.
+(3510F:2P, G8868) (Patient Performance Exclusion)
+3510F:2P G8868
+
+TB screening test not performed within 6 months prior to receiving a first course of anti-TNF therapy, reason not otherwise specified.\\nAND Patients receiving a first course of anti-TNF therapy.
+(3510F:8P, G8868) (Performance Not Met)
+3510F:8P G8868
+
+X
+y
+y
+
+0275
+(NQF #0000)
+
+Inflammatory Bowel Disease (IBD): Assessment of Hepatitis B Virus (HBV) Status Before Initiating Anti-TNF (Tumor Necrosis Factor) Therapy
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient have Hepatitis B Virus (HBV) status assessed prior to receiving anti-TNF therapy?
+HBV status assessed and results interpreted within one year prior to anti_TNF therapy.
+
+Hepatitis B Virus (HBV) status assessed and results interpreted within one year prior to receiving a first course of anti-TNF (tumor necrosis factor) therapy.
+(3517F) (Performance Met)
+3517F
+
+Patient has documented immunity to hepatitis B and is receiving a first course of anti-TNF therapy.
+(G8869) (Performance Met)
+G8869
+
+Documented reason for not assessing Hepatitis B Virus (HBV) status (e.g. patient not receiving a first course of anti-TNF therapy, patient declined) within one year prior to first course of anti-TNF therapy.
+(G9504) (Other Performance Exclusion)
+G9504
+
+Hepatitis B Virus (HBV) status not assessed and results interpreted within one year prior to receiving a first course of anti-TNF (tumor necrosis factor) therapy, reason not otherwise specified.
+(3517F:8P) (Performance Not Met)
+3517F:8P
+
+X
+y
+n
+ 

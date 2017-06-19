@@ -1,0 +1,159 @@
+Chronic Kidney Disease
+
+0047
+(NQF #0326)
+
+Care Plan
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was advance care plan or surrogate decision maker documented in the medical record?
+If patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning, report 1124F.
+
+Advanced care planning discussed and surrogate decision maker documented.
+(1123F) (Performance Met)
+1123F
+
+Advanced care planning discussed and no surrogate decision maker documented.
+(1124F) (Performance Met) (patient did not wish or was not able to name a surrogate decision marker or provide an advance care plan, or patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning)
+1124F
+
+Advance care planning not documented, reason NOS.
+(1123F:8P) (Performance Not Met)
+1123F:8P
+
+X
+y
+y
+
+0110
+(NQF 0041)
+
+Preventive Care and Screening: Influenza Immunization
+National Quality Strategy Domain: Community/Population Health
+
+Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization?
+.
+
+Influenza immunization administered or previously received.
+(G8482) (Performance Met)
+G8482
+
+Influenza immunization not administered, reason documented. 
+(G8483) (Performance Met)(e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons).
+G8483
+
+Influenza immunization was not administered, reason not given.
+(G8484) (Performance Not Met)
+G8484
+
+X
+y
+y
+
+0121
+(NQF #0000)
+
+Adult Kidney Disease: Laboratory Testing
+National Quality Strategy Domain: Effective Clinical Care
+
+Was a fasting lipid profile performed? (Triglycerides, LDL-C,HDL-C, and Total Cholesterol)
+.
+
+Patient had a fasting lipid profile performed at least once within a 12-month period.
+(G8725) (Peformance Met)
+G8725
+
+Clinician has documented reason for not performing fasting lipid profile.
+(G8726)(Other Performance Exclusion)  (eg, patient declined, other patient reasons)
+G8726
+
+Fasting lipid profile not performaned, reason NOS.
+(G8728) (Performance Not Met)
+G8728
+
+X
+y
+y
+
+0122
+(NQF #0000)
+
+Adult Kidney Disease: Blood Pressure Management
+National Quality Strategy Domain: Effective Clinical Care
+
+What was the patient's most recent blood pressure?
+.
+
+Systolic measurement of < 140 mmHg and a diastolic measurement of < 90 mmHg.
+(G8476) (Performance Met)
+G8476
+
+Systolic measurement of >= 140 mmHg and/or a diastolic measurement of >= 90 mmHg and plan of care documented.
+(G8477, 0513F)(Performance Met)
+G8477 0513F
+
+
+Blood pressure measurement not performed or documented, reason NOS.
+(G8478) (Performance Not Met)
+G8478
+
+Systolic measurement of >= 140 mmHg and/or a diastolic measurement of >= 90 mmHg AND plan of care, reason NOS.
+(G8477, 0513F:8P) (Performance Not Met)
+G8477  0513F:8P
+
+X
+y
+y
+
+0130
+(NQF #0419)
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Patient’s medications obtained, updated, or reviewed, and documented.
+
+Current (or no) medications documented in the patient's medical record.
+(G8427) (Performance Met)
+G8427
+
+Patient is not eligible.
+(G8430) (Other Performance Exclusion( (emergent or urgent situation)
+G8430
+
+Current list of medications not documented, NOS.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Within the last	12 months:
+.
+
+Patient screened for tobacco use AND received tobacco cessation intervention if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use. 
+(4004F:1P) (Medical Performance Exclusion) (eg, limited life expectancy, other medical reasons)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, NOS.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+
+X
+y
+n

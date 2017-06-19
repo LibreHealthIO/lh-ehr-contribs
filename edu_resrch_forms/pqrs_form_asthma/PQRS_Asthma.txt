@@ -1,0 +1,170 @@
+Asthma
+
+0053
+(NQF #0047)
+
+Asthma: Pharmacologic Therapy for Persistent Asthma - Ambulatory Care Setting
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient with persistent asthma prescribed long-term asthma control medication?
+.
+
+Inhaled corticosteroids prescribed.
+(1038F, 4140F) (Performance Met)
+1038F 4140F
+
+Alternative long-term control medication prescribed.
+(4144F) (Performance Met)
+4144F
+
+Documentation of patient reason(s) for not prescribing medication.
+(4140F:2P, 1038F) (Patient Performance Exclusion)  (eg, patient declined, other patient reason).
+4140F:2P 1038F
+
+Intermittent asthma.
+(1039F)(Other Performance Exclusion)
+1039F
+
+Medication not prescribed, NOS.
+(4140F:8P, 1038F) (Patient Performance Exclusion)
+4140F:8P 1038F
+
+X
+y
+y
+
+0110
+(NQF 0041)
+
+Preventive Care and Screening: Influenza Immunization
+National Quality Strategy Domain: Community/Population Health
+
+Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization?
+.
+
+Influenza immunization administered or previously received.
+(G8482) (Performance Met)
+G8482
+
+Influenza immunization not administered, reason documented. 
+(G8483) (Performance Met) (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons)
+G8483
+
+Influenza immunization was not administered, reason not given.
+(G8484) (Performance Not Met)
+G8484
+X
+y
+y
+
+0128
+(NQF #0421)
+
+Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health\\nNOTE: Normal parameters:\\nAge 65 years and older BMI >= 23 and < 30 kg/m2\\nAge 18 - 64 years BMI >= 18.5 and < 25 kg/m2.
+
+Was height and weight measured and recorded within 6 months of the encounter and, if BMI is outside of normal parameters, was a follow-up plan documented?
+A patient is not eligible if one or more of the following reasons are documented: Patient is receiving palliative care, is pregnant, refuses BMI measurement, and any other reason documented in the medical record by the provider why BMI measurement was not appropriate.
+
+BMI is documented within normal parameters and no follow-up plan is required.
+(G8420) (Performance Met)
+G8420
+
+BMI is documented above normal parameters and a follow-up plan is documented.
+(G8417) (Performance Met)
+G8417
+
+BMI is documented below normal parameters and a follow-up plan is documented.
+(G8418) (Performance Met)
+G8418
+
+BMI not documented and no reason is given.
+(G8421) (Performance Not Met)
+G8421
+
+BMI documented outside normal parameters, no follow-up plan documented, NOS.
+(G8419) (Performance Not Met)
+G8419
+
+X
+y
+y
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Patient’s medications obtained, updated, or reviewed, and documented.
+
+Current (or no) medications documented in the patient's medical record.
+(G8427) (Performance Met)
+G8427
+
+Patient is not eligible.
+(G8430) (Other Performance Exclusion( (emergent or urgent situation)
+G8430
+
+Current list of medications not documented, NOS.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Within the last	12 months:
+.
+
+Patient screened for tobacco use AND received tobacco cessation intervention if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use. 
+(4004F:1P) (Medical Performance Exclusion) (eg, limited life expectancy, other medical reasons)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, NOS.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+X
+y
+y
+
+
+0402
+(NQF #0000)
+
+Tobacco Use and Help with Quitting Among Adolescents
+National Quality Strategy Domain: Community / Population Health
+
+Was patient screened for tobacco use within 18 months?
+Screened during the measurement period or the six months prior to the measurement period AND received tobacco cessation counseling intervention if identified as a tobacco user.
+
+Patient documented as tobacco user AND received tobacco cessation intervention if identified as a tobacco user.
+(G9458) (Performance Met)
+G9458
+
+Currently a tobacco non-user.
+(G9459)(Performance Met)
+G9459
+
+Tobacco assessment OR tobacco cessation intervention not performed, NOS.
+(G9460) (Performance Not Met)
+G9460
+
+X
+y
+n

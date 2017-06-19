@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS pqrs_form_orthopedic_clinic (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `date` datetime DEFAULT NULL,
+  `pid` bigint(20) DEFAULT NULL,
+  `user` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `groupname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `authorized` tinyint(4) DEFAULT NULL,
+  `activity` tinyint(4) DEFAULT NULL, 
+  `purpose` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0021` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0023` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0046` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0109` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0128` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0154` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0155` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0226` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0238` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Orthopedic_Clinic0431` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `recommendation` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `finalize` varchar(3) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)

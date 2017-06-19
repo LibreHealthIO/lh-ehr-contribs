@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS pqrs_form_parkinsons (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `date` datetime DEFAULT NULL,
+  `pid` bigint(20) DEFAULT NULL,
+  `user` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `groupname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `authorized` tinyint(4) DEFAULT NULL,
+  `activity` tinyint(4) DEFAULT NULL, 
+  `purpose` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `Parkinsons0047` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Parkinsons0289` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Parkinsons0290` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Parkinsons0291` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Parkinsons0292` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Parkinsons0293` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Parkinsons0294` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `recommendation` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `finalize` varchar(3) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)

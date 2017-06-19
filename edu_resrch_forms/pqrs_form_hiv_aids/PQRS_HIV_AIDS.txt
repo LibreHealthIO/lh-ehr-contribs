@@ -1,0 +1,192 @@
+HIV_AIDS
+
+0047
+(NQF #0326)
+Care Plan
+National Quality Strategy Domain: Communication and Care Coordination
+Was advance care plan or surrogate decision maker documented in the medical record?
+If patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning, report 1124F.
+
+Advanced care planning discussed and documented.
+(1123F) (Performance Met)
+1123F
+
+Advanced care planning discussed and documented; patient did not wish or was not able to name a surrogate decision marker or provide an advance care plan, or patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning.
+(1124F) (Performance Met)
+1124F
+
+Advance care planning not documented, reason not otherwise specified.
+(1123F:8P) (Performance Not Met)
+1123F:8P
+X
+y
+y
+
+0134
+(NQF 0418)
+Preventive Care and Screening: Screening for Clinical Depression and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health
+Was patient screened for clinical depression with a standard screening tool AND if positive, a follow-up plan is documented.
+Patients aged 12 and older screened for depression with a follow-up plan on the date of the encounter.
+
+Screening for clinical depression is documented as being positive AND a follow-up plan is documented.
+(G8431) (Performance Met)
+G8431
+
+Screening for clinical depression is documented as negative, a follow-up plan is not required.
+(G8510) (Performance Met)
+G8510
+
+Screening for clinical depression not documented, documentation stating the patient is not eligible.
+(G8433) (Other Performance Exclusion)
+G8433
+
+Screening for clinical depression documented as positive, a follow-up plan not documented, documentation stating the patient is not eligible
+(G8940) (Other Performance Exclusion)
+G8940
+
+Clinical depression screening not documented, reason not given.
+(G8432) (Performance Not Met)
+G8432
+
+Screening for clinical depression documented as positive, follow-up plan not documented, reason not given.
+(G8511) (Performance Not Met)
+G8511
+X
+y
+y
+
+
+0160
+(NQF #0405)
+HIV/AIDS: Pneumocystis Jiroveci Pneumonia (PCP) Prophylaxis
+National Quality Strategy Domain: Effective Clinical Care
+Was patient prescribed pneumocystis jiroveci pneumonia (PCP) prophylaxis within 3 months of CD4 count below 200 cells/mm3?
+May include prescription given to the patient for PCP prophylaxis therapy at one or more visits in the 12-month period OR patient already taking PCP prophylaxis therapy as documented in current medication list.
+
+Pneumocystis jiroveci pneumonia prophylaxis prescribed within 3 months of low CD4+ cell count below 200 cells/mm3.\\nAND CD4+ cell count < 200 cells/mm3.
+(G9222, 3494F) (Performance Met)
+G9222 3494F
+
+
+Pneumocystis jiroveci pneumonia prophylaxis not prescribed within 3 months of low CD4+ cell count below 200 cells/mm3 for medical reason (i.e., patient’s CD4+ cell count above threshold within 3 months after CD4+ cell count below threshold, indicating that the patient’s CD4+ levels are within an acceptable range and the patient does not require PCP prophylaxis).\\nAND CD4+ cell count < 200 cells/mm3.
+(G9219, 3494F) (Medical Performance Exclusion)
+G9219 3494F
+
+CD4+ cell count 200 – 499 cells/mm3.
+(3495F) (Other Performance Exclusion)
+3495F
+
+CD4+ cell count = 500 cells/mm3.
+(3496F) (Other Performance Exclusion)
+3496F
+
+PCP prophylaxis was not prescribed within 3 months of low CD4+ cell count below 200 cells/mm3, reason not given.\\nAND CD4+ cell count < 200 cells/mm3.
+(G9217, 3494F) (Performance Not Met)
+G9217 3494F
+
+CD4+ cell count not performed, reason not otherwise specified.
+(3494F:8P) (Performance Not Met)
+3494F:8P
+X
+y
+y
+
+0205
+(NQF #0409)
+HIV/AIDS: Sexually Transmitted Disease Screening for Chlamydia, Gonorrhea, and Syphilis
+National Quality Strategy Domain: Effective Clinical Care
+Was patient screened for chlamydia, gonorrhea, and syphilis at least once since the diagnosis of HIV infection?
+.
+Chlamydia, gonorrhea, and syphilis screening results documented (report when results are present for all of the 3 screenings).
+(G9228) (Performance Met)
+G9228
+
+Chlamydia, gonorrhea, and syphilis screening results not documented (Patient refusal is the only allowed exclusion).
+(G9229) (Other Performance Exclusion)
+G9229
+
+Chlamydia, gonorrhea, and syphilis screening not documented as performed, reason not otherwise specified.
+(G9230) (Performance Not Met)
+G9230
+X
+y
+y
+
+0226
+(NQF #0028)
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn//nif identified as a tobacco user?
+Tobacco Use – Includes use of any type of tobacco; Tobacco Cessation Intervention – Includes brief//n counseling (3 minutes or less), and/or pharmacotherapy.
+Patient Screened for Tobacco Use, Identified as a User and Received Intervention
+(4004F) (Performance Met)
+4004F
+Patient Screened for Tobacco Use and Identified as a Non-User of Tobacco
+(1036F) (Performance Met)
+1036F
+Tobacco Screening not Performed for Medical Reasons
+(4004F:1P) Medical Performance Exclusion
+4004F:1P
+Tobacco Screening OR Tobacco Cessation Intervention not Performed, Reason Not Otherwise Specified
+(4004F:8P) (Performance Not Met)
+4004F:8P
+X
+y
+y
+
+0338
+(NQF #2082)
+
+HIV Viral Load Suppression
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient's HIV viral load less than 200 copies/mL at last viral load test?
+.
+
+Documentation of viral load less than 200 copies/mL.
+(G9243) (Performance Met)
+G9243
+
+Documentation of viral load equal to or greater than 200 copies/mL or viral load not performed.
+(G9242) (Performance Not Met)
+G9242
+
+X
+y
+y
+
+0339
+(NQF #2083)
+Prescription of HIV Antiretroviral Therapy
+National Quality Strategy Domain: Effective Clinical Care
+Was patient prescribed HIV antiretroviral therapy during the reporting period?
+HIV antiretroviral therapy is described as the prescription of at least one U.S. Food and Drug Administration approved HIV antiretroviral medication.
+Antiretroviral therapy prescribed.
+(G9245) (Performance Met)
+G9245
+
+Antiretroviral therapy not prescribed.
+(G9244) (Performance Not Met)
+G9244
+X
+y
+y
+
+0340
+(NQF #2079)
+HIV Medical Visit Frequency
+National Quality Strategy Domain: Efficiency And Cost Reduction
+Did patient have at least one medical visit in each 6 month period of the 24 month measurement period, with a minimum of 60 days between medical visits?
+.
+Patient had at least one medical visit in each 6 month period of the 24 month measurement period, with a minimum of 60 days between medical visits.
+(G9247) (Performance Met)
+G9247
+
+Patient did not have at least one medical visit in each 6 month period of the 24 month measurement period, with a minimum of 60 days between medical visits.
+(G9246) (Performance Not Met)
+G9246
+
+X
+y
+n
