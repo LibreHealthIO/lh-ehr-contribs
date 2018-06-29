@@ -1,0 +1,164 @@
+Parkinsons
+
+0047
+(NQF 0326)
+
+Care Plan
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was advanced care planning discussed and documented in the medical record?
+Advance care plan or surrogate decision maker must be documented in the medical record.
+
+Advanced Care Planning discussed and documented.
+(1123F) (Performance Met)
+1123F
+
+Advanced care planning discussed and documented; patient did not wish or was not able to name a surrogate decision marker or provide an advance care plan.  Patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning.
+(1124F) (Performance Met)
+1124F
+
+Advance Care Planning not Documented, Reason not Otherwise Specified.
+(1123F:8P) (Performance Not Met)
+1123F:8P
+
+X
+y
+y
+
+0289
+(NQF #0000)
+
+Parkinson’s Disease: Annual Parkinson’s Disease Diagnosis Review
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient have an annual assessment including a review of current medications (e.g., medications that can produce Parkinson-like signs or symptoms) and a review for the presence of atypical features (e.g., falls at presentation and early in the disease course, poor response to levodopa, symmetry at onset, rapid progression [to Hoehn and Yahr stage 3 in 3 years], lack of tremor or dysautonomia)?
+Patient assessed at least annually.
+
+Parkinson’s disease diagnosis reviewed.
+(1400F)(Performance Met)
+1400F
+
+Parkinson’s disease diagnosis was not reviewed, reason not otherwise specified. 
+(1400F:8P)(Performance Not Met)
+1400F:8P
+
+X
+y
+y
+
+0290
+(NQF #0000)
+
+Parkinson’s Disease: Psychiatric Disorders or Disturbances Assessment
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient assessed for psychiatric disorders or disturbances (e.g., psychosis, depression, anxiety disorder, apathy, or impulse control disorder). Patient assessed at least annually.
+.
+
+Psychiatric disorders or disturbances assessed.
+(3700F)(Performance Met)
+3700F
+
+Psychiatric disorders or disturbances not assessed, reason not otherwise specified.
+(3700F:8P)(Performance Not Met)
+3700F:8P
+
+X
+y
+y
+
+0291
+(NQF #0000)
+
+Parkinson’s Disease: Cognitive Impairment or Dysfunction Assessment
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient assessed for cognitive impairment or dysfunction at least annually?
+.
+
+Cognitive impairment or dysfunction assessed.
+(3720F)(Performance Met)
+3720F
+
+Cognitive impairment or dysfunction was not assessed, reason not otherwise specified.
+(3720F:8P)(Performance Not Met)
+3720F
+
+X
+y
+y
+
+0292
+(NQF #0000)
+
+Parkinson’s Disease: Querying about Sleep Disturbances
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient, or caregiver(s), as appropriate) were queried about sleep disturbances at least annually?
+.
+
+Patient (or caregiver) queried about sleep disturbances.
+(4328F) (Performance Met)
+4328F
+
+Documentation of medical reason(s) for not querying about sleep disturbances 
+(4328F:1P)(Medical Performance Exclusion)
+4328F:1P
+
+Patient (or caregiver) not queried about sleep disturbances, reason not otherwise specified.
+(4328F:8P)(Performance Not Met)
+4328F:8P
+
+X
+y
+y
+
+0293
+(NQF #0000)
+
+Parkinson’s Disease: Rehabilitative Therapy Options
+National Quality Strategy Domain: Communication and Care Coordination
+
+Were rehabilitative therapy options (e.g., physical, occupational, or speech therapy) discussed at least annually with patient who underwent rehabilitative therapy, (or caregiver(s), as appropriate), discussed at least annually?
+.
+
+Rehabilitative therapy options discussed with patient (or caregiver).
+(4400F)(Performance Met)
+4400F
+
+Documentation of medical reason(s) for not discussing rehabilitative therapy options with patient (or caregiver).
+(4400F:1P)(Medical Performance Exclusion)
+4400F:1P
+
+Rehabilitative therapy options not discussed with patient (or caregiver), reason not otherwise specified.
+(4400F:8P)(Performance Not Met)
+4400F:8P
+
+X
+y
+y
+
+0294
+(NQF #0000)
+
+Parkinson’s Disease: Parkinson’s Disease Medical and Surgical Treatment Options Reviewed -- National Quality Strategy Domain
+Communication and Care Coordination
+
+Was patient have Parkinson’s disease treatment options (e.g., non-pharmacological treatment, pharmacological treatment, or surgical treatment) reviewed at least once annually?
+.
+
+Medical and surgical treatment options reviewed with patient (or caregiver). 
+(4325F)(Performance Met)
+4325F
+
+Medical and surgical treatment options not reviewed with patient (or caregiver) for medical reasons (eg, patient is unable to respond and no informant is available).
+(4325F:1P)(Medical Performance Exclusion) 
+4325F:1P
+
+Medical and surgical treatment options not reviewed with patient (or caregiver), reasons not otherwise specified.
+(4325F:8P)(Performance Not Met)
+4325F:8P
+
+X
+y
+n

@@ -1,0 +1,167 @@
+Cardiovascular Prevention
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Patient’s medications obtained, updated, or reviewed, and documented.
+
+Current (or no) medications documented in the patient's medical record.
+(G8427) (Performance Met)
+G8427
+
+Patient is not eligible.
+(G8430) (Other Performance Exclusion( (emergent or urgent situation)
+G8430
+
+Current list of medications not documented, NOS.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0204
+(NQF 0068)
+
+Ischemic Vascular Disease (IVD): Use of Aspirin or Another Antithrombotic
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient discharged for AMI, CABG, or PCI, and instructed to use aspirin or another antithrombotic theray?
+.
+
+Aspirin or another antithrombotic therapy used.
+(G8598) (Performance Met)
+G8598
+
+Aspirin or another antithrombotic therapy not used, reason not given.
+(G8599) (Performance Not Met)
+G8599
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Within the last	12 months:
+.
+
+Patient screened for tobacco use AND received tobacco cessation intervention if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use. 
+(4004F:1P) (Medical Performance Exclusion) (eg, limited life expectancy, other medical reasons)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, NOS.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+
+X
+y
+y
+
+0236
+(NQF #0018)
+
+Controlling High Blood Pressure
+National Quality Strategy Domain: Effective Clinical Care
+
+Is blood pressure adequately controlled?
+Is blood pressure < 140/90 mmHg for patients aged 21 to 85 years of age who had a diagnosis of essential hypertension?
+
+Most recent systolic blood pressure < 140 mmHg.
+(G8752) (Performance Met)
+G8752
+
+Most recent systolic blood pressure >= 140 mmHg.
+(G8753) (Performance Not Met)
+G8753
+
+Most recent diastolic blood pressure < 90 mmHg.
+(G8754) (Performance Met)
+G8754
+
+Most recent diastolic blood pressure >= 90 mmHg.
+(G8755) (Performance Not Met)
+G8755
+
+No documentation of blood pressure measurement, reason NOS.
+(G8756) (Performance Not Met)
+G8756
+
+X
+y
+y
+
+0317
+(NQF #0000)
+
+Preventive Care and Screening: Screening for High Blood Pressure and Follow-Up Documented
+National Quality Strategy Domain: Community/Population Health\\nNOTE: To meet the intent of this measure, BP screening and follow-up must be performed once per measurement period. For patients with Normal blood pressure a follow-up plan is not required.
+
+Was patient screened for high blood pressure and is indicated follow-up documented?
+.
+
+Normal blood pressure reading documented, follow-up not required.
+(G8783) (Performance Met)
+G8783
+
+Pre-Hypertensive or Hypertensive blood pressure reading documented, AND the indicated follow-up is documented.
+(G8950) (Performance Met)
+G8950
+
+Patient not eligible.
+(G8784) (Other Performance Exclusion) (eg, active diagnosis of hypertension, patient refuses, urgent or emergent situation)
+G8784
+
+Blood pressure reading not documented, reason not given.
+(G8785) (Performance Not Met)
+G8785
+
+Pre-Hypertensive or Hypertensive blood pressure reading documented, indicated follow-up not documented, reason not given.
+(G8952) (Performance Not Met)
+G8952
+
+X
+y
+y
+
+0438
+(NQF #0000)
+
+Statin Therapy for the Prevention and Treatment of Cardiovascular Disease
+National Quality Strategy Domain: Effective Clinical Care\\nNOTE: In order to meet the measure, a current statin medication therapy use must be documented in the current medication list. 
+
+Is patient a current statin therapy user or received a prescription for statin therapy?
+.
+
+Patient is a current statin therapy user or received a prescriptionfor statin therapy.
+(G9664) (Performance Met)
+G9664)
+
+Documentation of medical reason(s) for not currently being a statin therapy user or receive an order.
+(G9667) (Medical Performance Exclusion) (eg, adverse effect, allergy or intolerance to statin medication therapy, pregnancy breastfeeding, patients who are receiving palliative care, active liver, hepatic disease, ESRD, or diabetes).
+G9667
+
+Patients who are not currently statin therapy users or did not receive an order for statin therapy.
+(G9665) (Performance Not Met)
+G9665
+
+X
+y
+n

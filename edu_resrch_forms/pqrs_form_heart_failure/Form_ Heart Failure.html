@@ -1,0 +1,331 @@
+<html>
+<head>
+<link rel="stylesheet" href="/git-librehealthehr/interface/themes/style_purple.css" type="text/css">
+
+<script language="JavaScript">
+
+function openNewForm(sel) {
+ top.restoreSession();
+  FormNameValueArray = sel.split('formname=');
+  if(FormNameValueArray[1] == 'newpatient')
+   {
+    parent.location.href = sel
+   }
+  else
+   {
+	parent.Forms.location.href = sel;
+   }
+}
+function toggleFrame1(fnum) {
+  top.frames['left_nav'].document.forms[0].cb_top.checked=false;
+  top.window.parent.left_nav.toggleFrame(fnum);
+ }
+</script>
+<style type="text/css">
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30;
+}
+
+</style>
+<script type="text/javascript" language="javascript">
+
+var timeout	= 500;
+var closetimer	= 0;
+var ddmenuitem	= 0;
+var oldddmenuitem = 0;
+var flag = 0;
+
+// open hidden layer
+function mopen(id)
+{
+	// cancel close timer
+	//mcancelclosetime();
+	
+	flag=10;
+
+	// close old layer
+	//if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	//if(ddmenuitem) ddmenuitem.style.display = 'none';
+
+	// get new layer and show it
+        oldddmenuitem = ddmenuitem;
+	ddmenuitem = document.getElementById(id);
+        if((ddmenuitem.style.visibility == '')||(ddmenuitem.style.visibility == 'hidden')){
+            if(oldddmenuitem) oldddmenuitem.style.visibility = 'hidden';
+            if(oldddmenuitem) oldddmenuitem.style.display = 'none';
+            ddmenuitem.style.visibility = 'visible';
+            ddmenuitem.style.display = 'block';
+        }else{
+            ddmenuitem.style.visibility = 'hidden';
+            ddmenuitem.style.display = 'none';
+        }
+}
+// close showed layer
+function mclose()
+{
+	if(flag==10)
+	 {
+	  flag=11;
+	  return;
+	 }
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+}
+
+// close layer when click-out
+document.onclick = mclose;
+//=================================================
+function findPosX(id)
+  {
+    obj=document.getElementById(id);
+	var curleft = 0;
+    if(obj.offsetParent)
+        while(1)
+        {
+          curleft += obj.offsetLeft;
+          if(!obj.offsetParent)
+            break;
+          obj = obj.offsetParent;
+        }
+    else if(obj.x)
+        curleft += obj.x;
+   PropertyWidth=document.getElementById(id).offsetWidth;
+   if(PropertyWidth>curleft)
+    {
+	 document.getElementById(id).style.left=0;
+	}
+  }
+
+  function findPosY(obj)
+  {
+    var curtop = 0;
+    if(obj.offsetParent)
+        while(1)
+        {
+          curtop += obj.offsetTop;
+          if(!obj.offsetParent)
+            break;
+          obj = obj.offsetParent;
+        }
+    else if(obj.y)
+        curtop += obj.y;
+    return curtop;
+  }
+</script>
+
+</head>
+<body class="bgcolor2">
+<dl>
+<!--<table   style="border:solid 1px black" cellspacing="0" cellpadding="0">
+ <tr>
+    <td valign="top"></td>
+  </tr>
+</table>-->
+<!-- DISPLAYING HOOKS STARTS HERE -->
+<!-- DISPLAYING HOOKS ENDS HERE -->
+<table cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td valign="top"><ul id="sddm"><li><a href='JavaScript:void(0);' id='enc2' onclick=" return top.window.parent.left_nav.loadFrame2('enc2','RBot','patient_file/encounter/encounter_top.php')">Encounter Summary</a></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('1');" >Administrative</a><div id='1' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=fee_sheet')" href='JavaScript:void(0);'>Fee Sheet</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=misc_billing_options')" href='JavaScript:void(0);'>Misc Billing Options HCFA</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=newpatient')" href='JavaScript:void(0);'>New Encounter Form</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=procedure_order')" href='JavaScript:void(0);'>Procedure Order</a></td></tr></table></div></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('2');" >Clinical</a><div id='2' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=care_plan')" href='JavaScript:void(0);'>Care Plan</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=clinical_instructions')" href='JavaScript:void(0);'>Clinical Instructions</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=functional_cognitive_status')" href='JavaScript:void(0);'>Functional and Cognitive Status</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=observation')" href='JavaScript:void(0);'>Observation</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=ros')" href='JavaScript:void(0);'>Review Of Systems</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=reviewofs')" href='JavaScript:void(0);'>Review of Systems Checks</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=soap')" href='JavaScript:void(0);'>SOAP</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=dictation')" href='JavaScript:void(0);'>Speech Dictation</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=vitals')" href='JavaScript:void(0);'>Vitals</a></td></tr></table></div></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('3');" >TESTING</a><div id='3' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_acute_otitis_externa')" href='JavaScript:void(0);'>Acute Otitis Externa (AOE) Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_asthma')" href='JavaScript:void(0);'>Asthma Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_chronic_kidney_disease')" href='JavaScript:void(0);'>Chronic Kidney Disease Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_diabetes')" href='JavaScript:void(0);'>Diabetes Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_heart_failure')" href='JavaScript:void(0);'>Heart Failure Quality Reporting </a></td></tr></table></div></li></table></div></li></ul><div style="clear:both"></div></td>
+  </tr>
+</table>
+</dl>
+
+</body>
+</html>
+	<html>
+	<head>
+	<link rel=stylesheet href="/git-librehealthehr/interface/themes/style_purple.css" type="text/css">
+	<title>Form: Heart Failure</title>
+	</head>
+	<body background="" topmargin=0 rightmargin=0 leftmargin=2 bottommargin=0 marginwidth=2 marginheight=0>
+	<html><head>
+<link rel=stylesheet href="<?echo $css_header;?>" type="text/css">
+</head>
+<body  bgcolor="#dddddd"  topmargin=0 rightmargin=0 leftmargin=2 bottommargin=0 marginwidth=2 marginheight=0>
+<font size=2>
+<form method=post action="<?echo $rootdir;?>/forms/pqrs_form_heart_failure/save.php?mode=new" name="my_form">
+<br>
+<span class="title"><center>Heart Failure Quality Reporting</center></span><br><br>
+<center><a href="javascript:top.restoreSession();document.my_form.submit();" class="link_submit">[Save]</a>
+You must EDIT the form after saving and reviewing to finalize
+<a href="/git-librehealthehr/interface/patient_file/encounter/encounter_top.php" class="link_submit"
+ onclick="top.restoreSession()">[Don't Save]</a></center>
+<br>
+
+<b><u>Client and Service Information</u></b><br><br>
+<b>Name:</b>&nbsp; Jonathan&nbsp&nbsp;Test
+<br> <br>
+
+<b><u>Purpose of Form</u></b><br>
+<textarea cols=120 rows=3 wrap=virtual name="purpose" >To ensure quality care and reporting on patients with Heart Failure.</textarea>
+<br><br>
+
+<table>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0005 <a target="_blank" href="#" title="(NQF #0081)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD) <a target="_blank" href="#" title="National Quality Strategy Domain: Effective Clinical Care"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was patient prescribed or currenty prescribed an ACE Inhibitor or ARB therapy? <a target="_blank" href="#" title="Definition: Prescription given to the patient for ACE inhibitor or ARB therapy at one or more visits in the measurement period OR patient already taking ACE inhibitor or ARB therapy as documented in current medication list."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Heart_Failure0005" value="4010F">Angiotensin Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) therapy prescribed or currently being taken. 
+	 <a target="_blank" href="#" title="(4010F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0005" value="4010F:1P">Documentation of medical reason(s) for not prescribing ACE inhibitor or ARB therapy (eg, hypotensive patients who are at immediate risk of cardiogenic shock, hospitalized patients who have experienced marked azotemia, allergy, intolerance, other medical reasons). 
+	 <a target="_blank" href="#" title="(4010F:1P) (Medical Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0005" value="4010F:2P">Documentation of patient reason(s) for not prescribing ACE inhibitor or ARB therapy (eg, patient declined, other patient reasons). 
+	 <a target="_blank" href="#" title="(4010F:2P) (Patient Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0005" value="4010F:3P">Documentation of system reason(s) for not prescribing ACE inhibitor or ARB therapy (eg, other system reasons). 
+	 <a target="_blank" href="#" title="(4010F:3P) (System Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0005" value="4010F:8P">Angiotensin converting enzyme (ACE) inhibitor or angiotensin receptor blocker (ARB) therapy was not prescribed, reason not otherwise specified. 
+	 <a target="_blank" href="#" title="(4010F:8P) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0008 <a target="_blank" href="#" title="(NQF #0083)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD) <a target="_blank" href="#" title="National Quality Strategy Domain: Effective Clinical Care"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was patient prescribed a beta-blocker therapy within a 12 month period in an outpatient setting? <a target="_blank" href="#" title="For patients with prior LVEF &lt; 40%, beta-blocker therapy should include bisoprolol, carvedilol, or sustained release metoprolol succinate."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Heart_Failure0008" value="G8450">Beta-blocker therapy prescribed 
+	 <a target="_blank" href="#" title="(G8450) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0008" value="G8451">Beta-Blocker Therapy for LVEF &lt; 40% not prescribed for reasons documented by the clinician (e.g., low blood pressure, fluid overload, asthma, patients recently treated with an intravenous positive inotropic agent, allergy, intolerance, other medical reasons, patient declined, other patient reasons, or other reasons attributable to the healthcare system). 
+	 <a target="_blank" href="#" title="(G8451) (Other Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0008" value="G8452">Beta-blocker therapy not prescribed. 
+	 <a target="_blank" href="#" title="(G8452) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0008_01 <a target="_blank" href="#" title="(NQF #0083)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD) <a target="_blank" href="#" title="National Quality Strategy Domain: Effective Clinical Care"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was patient prescribed a beta-blocker therapy at each hospital discharge? <a target="_blank" href="#" title="For patients with prior LVEF &lt; 40%, beta-blocker therapy should include bisoprolol, carvedilol, or sustained release metoprolol succinate."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Heart_Failure0008_01" value="G8450">Beta-blocker therapy prescribed 
+	 <a target="_blank" href="#" title="(G8450) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0008_01" value="G8451">Beta-Blocker Therapy for LVEF &lt; 40% not prescribed for reasons documented by the clinician (e.g., low blood pressure, fluid overload, asthma, patients recently treated with an intravenous positive inotropic agent, allergy, intolerance, other medical reasons, patient declined, other patient reasons, or other reasons attributable to the healthcare system). 
+	 <a target="_blank" href="#" title="(G8451) (Other Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0008_01" value="G8452">Beta-blocker therapy not prescribed. 
+	 <a target="_blank" href="#" title="(G8452) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0047 <a target="_blank" href="#" title="(NQF #0326)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Care Plan <a target="_blank" href="#" title="National Quality Strategy Domain: Communication and Care Coordination"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was Advanced Care Planning discussed and documented in the medical record? <a target="_blank" href="#" title="Advance Care Planning or surrogate decision maker must be documented in the medical record."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Heart_Failure0047" value="1123F">Advanced Care Planning discussed and documented. 
+	 <a target="_blank" href="#" title="(1123F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0047" value="1124F">Advanced Care Planning discussed and documented; patient did not wish or was not able to name a surrogate decision marker or provide an advance care plan 
+	 <a target="_blank" href="#" title="(1124F) (Performance Met) Patient's cultural and/or spiritual beliefs preclude a discussion of advance care planning."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0047" value="1123F:8P">Advance Care Planning not Documented, Reason not Otherwise Specified 
+	 <a target="_blank" href="#" title="(1123F:8P) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0110 <a target="_blank" href="#" title="(NQF #0041)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Preventive Care and Screening: Influenza Immunization <a target="_blank" href="#" title="National Quality Strategy Domain: Community/Population Health"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization? <a target="_blank" href="#" title="Patients 6 months and older seen for a visit between October 1 and March 31 OR who reported previous receipt of an influenze immunization."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Heart_Failure0110" value="G8482">Influenza immunization administered or previously received 
+	 <a target="_blank" href="#" title="(G8482) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0110" value="G8483">Influenza immunization not administered, reason documented 
+	 <a target="_blank" href="#" title="(G8483) (Performance Met) (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0110" value="G8484">Influenza immunization was not administered, reason not given 
+	 <a target="_blank" href="#" title="(G8484) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0130 <a target="_blank" href="#" title="(NQF #0419)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Documentation of Current Medications in the Medical Record <a target="_blank" href="#" title="National Quality Strategy Domain: Patient Safety"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Are current medications documented in the patient's medical record? <a target="_blank" href="#" title="Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient's current medications."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Heart_Failure0130" value="G8427">Current medications documented 
+	 <a target="_blank" href="#" title="(G8427) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0130" value="G8430">Eligible professional attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible professional. 
+	 <a target="_blank" href="#" title="(G8430) (Other Performance Exclusion)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0130" value="G8428">Current list of medications not documented as obtained, updated, or reviewed by the eligible professional, reason not given. 
+	 <a target="_blank" href="#" title="(G8428) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0226 <a target="_blank" href="#" title="(NQF #0028)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention <a target="_blank" href="#" title="National Quality Strategy Domain: Community / Population Health"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user? <a target="_blank" href="#" title="Tobacco Use – Includes use of any type of tobacco; Tobacco Cessation Intervention – Includes brief counseling (3 minutes or less), and/or pharmacotherapy."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Heart_Failure0226" value="4004F">Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user. 
+	 <a target="_blank" href="#" title="(4004F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0226" value="1036F">Current tobacco non-user 
+	 <a target="_blank" href="#" title="(1036F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0226" value="4004F:1P">Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons). 
+	 <a target="_blank" href="#" title="(4004F:1P) Medical Performance Exclusion"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Heart_Failure0226" value="4004F:8P">Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified. 
+	 <a target="_blank" href="#" title="(4004F:8P) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td>	<p><br><p>	</td> </tr>
+
+<tr>	<td>
+	<b>Additional notes and recommendations:</b><br>
+	<textarea cols=83 rows=1 wrap=virtual  name="recommendation" ></textarea><br><br>
+	<br><br>
+</td>	</tr>
+
+<tr>	<td>
+	<center><a href="javascript:top.restoreSession();document.my_form.submit();" class="link_submit">[Save]</a>
+	<a href="/git-librehealthehr/interface/patient_file/encounter/encounter_top.php" class="link_submit"
+ 	onclick="top.restoreSession()">[Don't Save]</a></center>
+</td></tr>
+
+</table>
+
+</form>
+	</body>
+	</html>
+	

@@ -1,0 +1,238 @@
+Acute Otitis Externa
+
+0091
+(NQF #0653)
+
+Acute Otitis Externa (AOE): Topical Therapy
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient prescribed topical preparations, including OTC, for AOE?
+.
+
+Topical preparations (including OTC) prescribed.
+(4130F) (Performance Met)
+4130F
+
+Documentation of medical reason(s) for not prescribing topical preparations (including OTC).
+(4130F:1P) (Medical Performance Exclusion)
+4130F:1P
+
+Documentation of patient reason(s) for not prescribing topical preparations (including OTC).
+(4130F:2P) (Patient Performance Exclusion)
+4130F:2P
+
+Topical preparations (including OTC) not prescribed, NOS.
+(4130F:8P) (Performance Not Met)
+4130F:8P
+
+X
+y
+y
+
+0093
+(NQF #0000)
+
+Acute Otitis Externa (AOE): Systemic Antimicrobial Therapy – Avoidance of Inappropriate Use 
+National Quality Strategy Domain: Efficiency and Cost Reduction//nThis is an Inverse Measure: A lower score is desired.
+
+Was patient diagnosed with Acute Otitis Externa NOT prescribed a systemic antimicrobial therapy?
+.
+
+Systemic antimicrobial therapy not prescribed.
+(4132F) (Performance Met), INVERSE MEASURE
+4132F
+
+Documentation of medical reason(s) for prescribing systemic antimicrobial therapy.
+(4131F:1P) (Medical Performance Exclusion), INVERSE MEASURE
+4131F:1P
+
+Systemic antimicrobial therapy prescribed.
+(4131F) (Performance Not Met), INVERSE MEASURE
+4131F
+
+X
+y
+y
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Patient’s medications obtained, updated, or reviewed, and documented.
+
+Current (or no) medications documented in the patient's medical record.
+(G8427) (Performance Met)
+G8427
+
+Patient is not eligible.
+(G8430) (Other Performance Exclusion) (eg, emergent or urgent situation)
+G8430
+
+Current list of medications not documented, reason not given.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0131
+(NQF #0420)
+
+Pain Assessment and Follow-Up
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was patient's pain assessed using a standardized tool and documented if pain is present?
+.
+
+Pain assessment documented as positive AND a follow-up plan is documented.
+(G8730)(Performance Met)
+G8730
+
+Pain assessment is documented as negative, no follow-up plan required.
+(G8731)(Performance Met)
+G8731
+
+Patient is not eligible for a pain assessment.
+(G8442) (Other Performance Exclusion) (eg, urgent, emergent situation or patient incapacitated)
+G8442
+
+Pain assessment documented as positive, no follow-up plan, patient is not eligible.
+(G8939) (Other Performance Exclusion) (urgent, emergent situation or patient incapacitated)
+G8939
+
+No documentation of pain assessment, reason not given.
+(G8732) (Performance Not Met)
+G8732
+
+Pain assessment documented as positive, no follow-up plan, NOS.
+(G8509) (Performance Not Met)
+G8509
+
+X
+y
+y
+
+0154
+(NQF: #0101)
+
+Falls: Risk Assessment
+National Quality Strategy Domain: Patient Safety
+
+Was risk assessment for patient with a history of falls completed within the past 12 months?
+2 or more falls in the past year or any fall with injury in the past year. Documentation of patient reported history of falls is sufficient.
+
+Falls risk assessment documented and patient screened for future fall risk.
+(3288F, 1100F) (Performance Met)
+3288F 1100F
+
+Medical reason(s) for not completing a risk assessment and patient screened for future fall risk.
+(3288F:1P, 1100F) (Medical Performance Exclusion) (eg, patient not ambulatory)
+3288F:1P 1100F
+
+Patient screened for future fall risk; no falls or only one fall without injury in the past year.
+(1101F) (Other Performance Exclusion)
+1101F
+
+Patient not eligible; fall status not documented.
+(1101F:8P) (Other Performance Exclusion)
+1101F:8P
+
+Falls risk assessment not completed, NOS, AND patient screened for fall risk.
+(3288F:8P, 1100F) (Performance Not Met)
+3288F:8P 1100F
+
+X
+y
+y
+
+0155
+(NQF: #0101)
+
+Falls: Plan of Care
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was a plan of care for patient with a history of falls documented within 12 months?
+History of falls is defined as 2 or more falls in the past year or any fall with injury in the past year. Documentation of patient reported history of falls is sufficient.
+
+Falls plan of care documented.
+(0518F) (Performance Met)
+0518F
+
+Documentation of medical reason(s) for no plan of care for falls.
+(0518F:1P) (Medical Performance Exclusion) (eg, patient is not ambulatory)
+0518F:1P
+
+Plan of care not documented, reason NOS.
+(0518F:8P) (Performance Not Met)
+0518F:8P
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use.
+(4004F:1P) (Medical Performance Exclusion) (eg, limited life expectancy, other medical reasons)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, NOS.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+
+X
+y
+y
+
+0317
+(NQF #0000)
+
+Preventive Care and Screening: Screening for High Blood Pressure and Follow-Up Documented
+National Quality Strategy Domain: Community/Population Health\\nNOTE: BP screening and follow-up must be performed once per measurement period. For patients with Normal blood pressure a follow-up plan is not required.
+
+Was patient screened for high blood pressure and is indicated follow-up documented?
+.
+
+Normal blood pressure reading documented, follow-up not required.
+(G8783) (Performance Met)
+G8783
+
+Pre-Hypertensive or Hypertensive blood pressure reading documented, AND the indicated follow-up is documented.
+(G8950) (Performance Met)
+G8950
+
+Patient not eligible. 
+(G8784) (Other Performance Exclusion) (eg, (active diagnosis of hypertension, patient refuses, urgent or emergent situation)
+G8784
+
+Blood pressure reading not documented, NOS.
+(G8785) (Performance Not Met)
+G8785
+
+Pre-Hypertensive or Hypertensive blood pressure reading documented, indicated follow-up not documented, NOS.
+(G8952) (Performance Not Met)
+G8952
+
+X
+y
+n
+

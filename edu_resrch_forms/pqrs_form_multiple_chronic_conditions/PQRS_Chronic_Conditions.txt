@@ -1,0 +1,263 @@
+Multiple Chronic Conditions
+
+0047
+(NQF #0326)
+
+Care Plan
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was advance care plan or surrogate decision maker documented in the medical record?
+If patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning, report 1124F.
+
+Advanced care planning discussed and surrogate decision maker documented.
+(1123F) (Performance Met)
+1123F
+
+Advanced care planning discussed and documented and no surrogate decision maker documented.
+(1124F) (Performance Met) (eg, patient did not wish or was not able to name a surrogate decision marker or provide an advance care plan, or patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning.)
+1124F
+
+Advance care planning not documented, reason NOS.
+(1123F:8P) (Performance Not Met)
+1123F:8P
+
+X
+y
+y
+
+0110
+(NQF 0041)
+
+Preventive Care and Screening: Influenza Immunization
+National Quality Strategy Domain: Community/Population Health
+
+Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization?
+.
+
+Influenza immunization administered or previously received.
+(G8482) (Performance Met)
+G8482
+
+Influenza immunization not administered, reason documented. 
+(G8483) (Performance Met) (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons)
+G8483
+
+Influenza immunization was not administered, reason not given.
+(G8484) (Performance Not Met)
+G8484
+
+X
+y
+y
+
+0128
+(NQF #0421)
+
+Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health\\nNOTE: Normal parameters:\\nAge 65 years and older BMI >= 23 and < 30 kg/m2\\nAge 18 - 64 years BMI >= 18.5 and < 25 kg/m2.
+
+Was height and weight measured and recorded within 6 months of the encounter and, if BMI is outside of normal parameters, was a follow-up plan documented?
+A patient is not eligible if one or more of the following reasons are documented: Patient is receiving palliative care, is pregnant, refuses BMI measurement, and any other reason documented in the medical record by the provider why BMI measurement was not appropriate.
+
+BMI is documented within normal parameters and no follow-up plan is required.
+(G8420) (Performance Met)
+G8420
+
+BMI is documented above normal parameters and a follow-up plan is documented.
+(G8417) (Performance Met)
+G8417
+
+BMI is documented below normal parameters and a follow-up plan is documented.
+(G8418) (Performance Met)
+G8418
+
+BMI not documented and no reason is given.
+(G8421) (Performance Not Met)
+G8421
+
+BMI documented outside normal parameters, no follow-up plan documented, NOS.
+(G8419) (Performance Not Met)
+G8419
+
+X
+y
+y
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Patient’s medications obtained, updated, or reviewed, and documented.
+
+Current (or no) medications documented in the patient's medical record.
+(G8427) (Performance Met)
+G8427
+
+Patient is not eligible.
+(G8430) (Other Performance Exclusion( (emergent or urgent situation)
+G8430
+
+Current list of medications not documented, NOS.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0131
+(NQF #0420)
+
+Pain Assessment and Follow-Up
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was patient's pain assessed using a standardized tool and documented if pain is present?
+.
+
+Pain assessment documented as positive AND a follow-up plan is documented.
+(G8730)(Performance Met)
+G8730
+
+Pain assessment is documented as negative, no follow-up plan required.
+(G8731)(Performance Met)
+G8731
+
+Patient is not eligible for a pain assessment.
+(G8442) (Other Performance Exclusion)(urgent, emergent situation or patient incapacitated)
+G8442
+
+Pain assessment documented as positive, no follow-up plan, patient is not eligible.
+(G8939) (Other Performance Exclusion) (urgent, emergent situation or patient incapacitated)
+G8939
+
+No documentation of pain assessment, reason not given.
+(G8732) (Performance Not Met)
+G8732
+
+Pain assessment documented as positive, no follow-up plan, NOS.
+(G8509) (Performance Not Met)
+G8509
+
+X
+y
+y
+
+0134
+(NQF #0418)
+
+Preventive Care and Screening: Screening for Clinical Depression and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health
+
+Was patient screened for clinical depression with a standard screening tool AND if positive, was a follow-up plan documented?
+The name of the age appropriate standardized depression screening tool utilized must be documented in the medical record. The depression screening must be reviewed and addressed in the office of the provider filing the code on the date of the encounter.
+
+Screening for clinical depression is documented as being positive AND a follow-up plan is documented.
+(G8431) (Performance Met)
+G8431
+
+Screening for clinical depression is documented as negative, a follow-up plan is not required.
+(G8510) (Performance Met)
+G8510
+
+Screening for clinical depression not documented, patient is not eligible.
+(G8433) (Other Performance Exclusion) (eg, urgent or emergent situation, actived diagnosis of depression, incapacitated or patient refuses)
+G8433
+
+Screening for clinical depression documented as positive, a follow-up plan not documented, patient is not eligible.
+(G8940) (Other Performance Exclusion) (eg, urgent or emergent situation, actived diagnosis of depression, incapacitated or patient refuses)
+G8940
+
+Clinical depression screening not documented, reason NOS.
+(G8432) (Performance Not Met)
+G8432
+
+Screening for clinical depression documented as positive, follow-up plan not documented, reason NOS.
+(G8511) (Performance Not Met)
+G8511
+
+X
+y
+y
+
+0154
+(NQF: #0101)
+
+Falls: Risk Assessment
+National Quality Strategy Domain: Patient Safety
+
+Was risk assessment for patient with a history of falls completed within the past 12 months?
+History of falls is defined as 2 or more falls in the past year or any fall with injury in the past year. Documentation of patient reported history of falls is sufficient.
+
+Falls risk assessment documented.
+(3288F, 1100F) (Performance Met)
+3288F 1100F
+
+Documentation of medical reason(s) for not completing a risk assessment for falls.
+(3288F:1P, 1100F) (Medical Performance Exclusion) (ie, patient not ambulatory)
+3288F:1P 1100F
+
+Patient screened for future fall risk; documentation of no falls in the past year or only one fall without injury in the past year.
+(1101F) (Other Performance Exclusion)
+1101F
+
+Patient not eligible; fall status not documented.
+(1101F:8P) (Other Performance Exclusion)
+1101F:8P
+
+Falls risk assessment not completed, reason NOS.
+(3288F:8P, 1100F) (Performance Not Met)
+3288F:8P 1100F
+
+X
+y
+y
+
+0155
+(NQF: #0101)
+
+Falls: Plan of Care
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was a plan of care for patient with a history of falls documented within 12 months?
+History of falls is defined as 2 or more falls in the past year or any fall with injury in the past year. Documentation of patient reported history of falls is sufficient.
+
+Falls plan of care documented.
+(0518F) (Performance Met)
+0518F
+
+Documentation of medical reason(s) for no plan of care for falls 
+(0518F:1P) (Medical Performance Exclusion)
+0518F:1P
+
+Plan of care not documented, reason not otherwise specified.
+(0518F:8P) (Performance Not Met)
+0518F:8P
+
+X
+y
+y
+
+0238
+(NQF #0022)
+
+Use of High-Risk Medications in the Elderly
+National Quality Strategy Domain: Patient Safety\\nNOTE: A lower calculated performance rate for this measure indicates better clinical care or control. 
+
+Was at least one high-risk medication ordered?
+.
+
+One high-risk medication ordered.
+(G9365) (Performance Met, INVERSE MEASURE)
+G9365
+
+One high-risk medication not ordered.
+(G9366) (Performance Not Met, INVERSE MEASURE)
+G9366
+
+X
+y
+n
+

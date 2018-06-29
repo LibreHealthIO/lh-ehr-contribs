@@ -1,0 +1,195 @@
+Coronary Artery Disease
+
+0006
+(NQF #0067)
+
+Coronary Artery Disease (CAD): Antiplatelet Therapy
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient prescribed or are they already taking aspirin or clopidogrel?
+.
+
+Aspirin or clopidogrel prescribed.
+(4086F) (Performance Met)
+4086F
+
+Aspirin or clopidogrel not prescribed, medical reason.
+(4086F:1P) (Medical Performance Exclusion) (eg, allergy, intolerance, receiving other thienopyridine therapy, receiving warfarin therapy, bleeding coagulation disorders, other medical reasons)
+4086F:1P
+
+Aspirin or clopidogrel not prescribed, patient reason.
+(4086F:2P) (Patient Performance Exclusion) (eg, patient declined, other patient reasons)
+4086F:2P
+
+Aspirin or clopidogrel not prescribed, syste, reason.
+(4086F:3P) (System Performance Exclusion) (eg, lack of drug availability, other reasons attributable to the health care system)
+4086F:3P
+
+Aspirin or clopidogrel not prescribed, reason NOS.
+(4086F:8P) (System Performance Exclusion)
+4086F:8P
+
+X
+y
+y
+
+0007
+(NQF #0070)
+
+Coronary Artery Disease (CAD): Beta-Blocker Therapy – Prior Myocardial Infarction (MI) or Left Ventricular Systolic Dysfunction (LVEF < 40%)
+National Quality Strategy Domain: Effective Clinical Care
+
+Were patients with a diagnosis of CAD in the last 12 months and a current or prior LVEF < 40% prescribed beta-blocker therapy?
+Beta-blocker therapy includes bisoprolol, carvedilol, or sustained release metoprolol succinate.
+
+Beta-blocker therapy prescribed or currently being taken. 
+(G9189) (Performance Met)
+G9189
+
+Beta-blocker not therapy prescribed, medical reason.
+(G9190) (Medical Performance Exclusion) (eg, allergy, intolerance, other medical reasons)
+G9190
+
+Beta-blocker therapy not prescribed, patient reason.
+(G9191) (Patient Performance Exclusion) (eg, patient declined, other patient reasons)
+G9191
+
+Beta-blocker therapy not prescribed, system reason.
+(G9192) (System Performance Exclusion) (eg, other reasons attributable to the health care system)
+G9192
+
+Beta-blocker therapy not prescribed, reason NOS.
+(G9188) (Performance Not Met)
+G9188
+
+X
+y
+y
+
+0128
+(NQF #0421)
+
+Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health\\nNOTE: Normal parameters:\\nAge 65 years and older BMI >= 23 and < 30 kg/m2\\nAge 18 - 64 years BMI >= 18.5 and < 25 kg/m2.
+
+Was height and weight measured and recorded within 6 months of the encounter and, if BMI is outside of normal parameters, was a follow-up plan documented?
+A patient is not eligible if one or more of the following reasons are documented: Patient is receiving palliative care, is pregnant, refuses BMI measurement, and any other reason documented in the medical record by the provider why BMI measurement was not appropriate.
+
+BMI is documented within normal parameters and no follow-up plan is required.
+(G8420) (Performance Met)
+G8420
+
+BMI is documented above normal parameters and a follow-up plan is documented.
+(G8417) (Performance Met)
+G8417
+
+BMI is documented below normal parameters and a follow-up plan is documented.
+(G8418) (Performance Met)
+G8418
+
+BMI not documented and no reason is given.
+(G8421) (Performance Not Met)
+G8421
+
+BMI documented outside normal parameters, no follow-up plan documented, NOS.
+(G8419) (Performance Not Met)
+G8419
+
+X
+y
+y
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Patient’s medications obtained, updated, or reviewed, and documented.
+
+Current (or no) medications documented in the patient's medical record.
+(G8427) (Performance Met)
+G8427
+
+Patient is not eligible.
+(G8430) (Other Performance Exclusion( (emergent or urgent situation)
+G8430
+
+Current list of medications not documented, NOS.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Within the last	12 months:
+.
+
+Patient screened for tobacco use AND received tobacco cessation intervention if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use. 
+(4004F:1P) (Medical Performance Exclusion) (eg, limited life expectancy, other medical reasons)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, NOS.
+(4004F:8P) (Performance Not Met)
+4004F:8PX
+
+X
+y
+y
+
+0242
+(NQF #0000)
+
+Coronary Artery Disease (CAD): Symptom Management
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient evaluated for level of activity and an assessment of anginal symptoms?
+.
+
+Severity of angina assessed and plan of care documented.
+(1010F, 0557F, 1011F) (Performance Met)
+1010F 0557F 1011F
+
+Severity of angina assessed by level of activity and angina absent.
+(1010F, 1012F) (Performance Met)
+1010F 1012F
+
+Medical reason(s) for not providing plan of care to achieve control of anginal symptoms.
+(0557F:1P) (Medical Performance Exclusion) (eg, allergy, intolerance, other medical reasons)
+0557F:1P
+
+Patient reason(s) for not providing plan of care to achieve control of anginal symptoms.
+(0557F:2P) (Patient Performance Exclusion)(eg, patient declined, other patient reasons)
+0557F:2P
+
+System reason(s) for not providing plan of care to achieve control of anginal symptoms.
+(0557F:3P, 1010F, 1011F) (System Performance Exclusion)(eg, financial reasons, other reasons attributable to the health care system)
+0557F:3P 1010F 1011F
+
+Plan of care to achieve control of angina symptoms was not performed, reason NOS.
+(0557F:8P, 1010F 1011F) (Performance Not Met)
+0557F:8P 1010F 1011F
+
+Severity of angina not assessed, reason NOS.
+(1010F:8P) (Performance Not Met)
+1010F:8P
+
+X
+y
+n

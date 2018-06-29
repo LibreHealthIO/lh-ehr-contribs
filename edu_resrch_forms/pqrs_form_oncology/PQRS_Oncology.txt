@@ -1,0 +1,184 @@
+Oncology
+
+0071
+(NQF #0387)
+
+Breast Cancer: Hormonal Therapy for Stage IC-IIIC Estrogen Receptor/ Progesterone Receptor (ER/PR) Positive Breast Cancer
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient prescribed tamoxifen or aromatase inhibitor (AI)?
+.
+
+Tamoxifen or aromatase inhibitor (AI) prescribed.
+(4179F) (Performance Met)
+4179F
+
+Documentation of medical reason(s) for not prescribing tamoxifen or aromatase inhibitor (eg, patient’s disease has progressed to metastatic, patient is receiving a gonadotropin-releasing hormone analogue, patient has received oophorectomy, patient is receiving radiation or chemotherapy, patient’s diagnosis date was > 5 years from reporting date, patient’s diagnosis date is within 120 days of the end of the 12 month reporting period, other medical reasons).
+(4179F:1P) (Medical Performance Exclusion)
+4179F:1P
+
+Documentation of patient reason(s) for not prescribing tamoxifen or aromatase inhibitor (eg, patient refusal, other patient reasons).
+(4179F:2P) (Patient Performance Exclusion)
+4179F:2P
+
+Documentation of system reason(s) for not prescribing tamoxifen or aromatase inhibitor (eg, patient is currently enrolled in a clinical trial, other system reasons).
+(4179F:3P) (Patient Performance Exclusion)
+4179F:3P
+
+Tamoxifen or aromatase inhibitor not prescribed, reason not otherwise specified.
+(4179F:8P) (Performance Not Met)
+4179F:8P
+
+X
+y
+y
+
+0072
+(NQF #0385)
+
+Colon Cancer: Chemotherapy for AJCC Stage III Colon Cancer Patients
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient referred or prescribed adjuvant chemotherapy, or previosly received chemotherapy?
+According to current NCCN guidelines, the following therapies are recommended: 5-FU/LV/oxaliplatin (FOLFOX) or capecitabine/oxaliplatin (CapeOx) (both category 1 and preferred); bolus 5-FU/LV/oxaliplatin (FLOX) (category 1); or single-agent capecitabine or 5-FU/LV in patients felt to be inappropriate for oxaliplatin therapy (NCCN). See clinical recommendation statement for cases where leucovorin is not available.
+
+Adjuvant chemotherapy referred, prescribed or previously received for AJCC Stage III, colon cancer.
+(G8927) (Performance Met)
+G8927
+
+Adjuvant chemotherapy not prescribed or previously received for documented reasons (e.g., medical co-morbidities, diagnosis date more than 5 years prior to the current visit date, patient’s diagnosis date is within 120 days of the end of the 12 month reporting period, patient’s cancer has metastasized, medical contraindication/allergy, poor performance status, other medical reasons, patient refusal, other patient reasons, patient is currently enrolled in a clinical trial that precludes prescription of chemotherapy, other system reasons).
+(G8928) (Other Performance Exclusions)
+G8928
+
+Adjuvant chemotherapy not prescribed or previously received, reason not given.
+(G8929) (Performance Not Met)
+G8929
+
+X
+y
+y
+
+0110
+(NQF 0041)
+
+Preventive Care and Screening: Influenza Immunization
+National Quality Strategy Domain: Community/Population Health
+
+Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization?
+Patients 6 months and older seen for a visit between October 1 and March 31 OR who reported previous receipt of an influenze immunization.
+
+Influenza immunization administered or previously received.
+(G8482) (Performance Met)
+G8482
+
+Influenza immunization not administered, reason documented. (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons).
+(G8483) (Performance Met)
+G8483
+
+Influenza immunization was not administered, reason not given.
+(G8484) (Performance Not Met)
+G8484
+
+X
+y
+y
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient’s current medications.
+
+Current medications documented.
+(G8427) (Performance Met)
+G8427
+
+Eligible professional attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible professional.
+(G8430) (Other Performance Exclusion)
+G8430
+
+Current list of medications not documented as obtained, updated, or reviewed by the eligible professional, reason not given.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0143
+(NQF #0384)
+
+Oncology: Medical and Radiation – Pain Intensity Quantified
+National Quality Strategy Domain: Person and Caregiver-Centered Experience and Outcomes
+
+Was patient's pain intensity quantified?
+Pain intensity should be quantified using a standard instrument, such as a 0-10 numerical rating scale, visual analog scale, a categorical scale, or the pictorial scale.
+
+Pain severity quantified; pain present.
+(1125F) (Performance Met)
+1125F
+
+Pain severity quantified; no pain present.
+(1126F) (Performance Met)
+1126F
+
+Pain severity not documented, reason not otherwise specified.
+(1125F:8P) (Performance Not Met)
+1125F:8P
+
+X
+y
+y
+
+0144
+(NQF #0383)
+
+Oncology: Medical and Radiation – Plan of Care for Pain
+National Quality Strategy Domain: Person and Caregiver-Centered Experience and Outcomes
+
+Was plan of care to address pain documented?
+.
+
+Plan of care to address pain documented.
+(0521F) (Performance Met)
+0521F
+
+Plan of care for pain not documented, reason not otherwise specified.
+(0521F:8P)(Performance Not Met)
+0521F:8P
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons).
+(4004F:1P) (Medical Performance Exclusion)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+
+X
+y
+n

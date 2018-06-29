@@ -1,0 +1,222 @@
+Hepatitis C
+
+0084
+(NQF #0395)
+
+Hepatitis C: Ribonucleic Acid (RNA) Testing Before Initiating Treatment -- National Quality Strategy Domain
+Effective Clinical Care
+
+Was patient's quantitative HCV RNA testing performed within 12 months prior to initiation of antiviral treatment?
+.
+
+RNA testing for hepatitis C documented as performed within 12 months prior to initiation of antiviral treatment for hepatitis C.\\nAND Patient starting antiviral treatment for hepatitis C during the measurement period.
+(G9203, G9205)(Performance Met)
+G9203 G9205
+
+
+Patient did not start or is not receiving antiviral treatment for hepatitis C during the measurement period.
+(G9499) (Other Performance Exclusion)
+G9499
+
+RNA testing for hepatitis C was not documented as performed within 12 months prior to initiation of antiviral treatment for hepatitis C, reason not given.\\nAND Patient starting antiviral treatment for hepatitis C during the measurement period.
+(G9204, G9205) (Performance Not Met)
+G9204 G9205 
+
+X
+y
+y
+
+0085
+(NQF #0396)
+
+Hepatitis C: Hepatitis C Virus (HCV) Genotype Testing Prior to Treatment National
+Quality Strategy Domain: Effective Clinical Care
+
+Did patient start antiviral treatment within the 12 month reporting period for whom hepatitis C virus (HCV) genotype testing was performed within 12 months prior to initiation of antiviral treatment?
+.
+
+Hepatitis C genotype testing documented as performed within 12 months prior to initiation of antiviral treatment for hepatitis C.\\nAND Patient starting antiviral treatment for hepatitis C during the measurement period.
+(G9207, G9206) (Performance Met)
+G9207 G9206
+
+
+Clinician documented that patient is not an eligible candidate for genotype testing; patient not receiving antiviral treatment for hepatitis C during the measurement period (e.g. Genotype test done prior to the reporting period, patient declines, patient not a candidate for antiviral treatment).
+(G8458) (Other Performance Exclusion)
+G8458
+
+Hepatitis C genotype testing was not documented as performed within 12 months prior to initiation of antiviral treatment for hepatitis C, reason not given.\\nAND Patient starting antiviral treatment for hepatitis C during the measurement period.
+(G9208, G9206) (Performance Not Met)
+G9208 G9206
+
+X
+y
+y
+
+0087
+(NQF #0398)
+
+Hepatitis C: Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) Testing Between 4–12 Weeks After Initiation of Treatment
+National Quality Strategy Domain: Effective Clinical Care
+
+Was quantitative HCV RNA testing performed at no greater than 12 weeks from the initiation of antiviral treatment?
+.
+
+Hepatitis C quantitative RNA testing documented as performed between 4-12 weeks after the initiation of antiviral treatment.\\nAND Patient receiving antiviral treatment for hepatitis C during the measurement period.
+(G9209, G8461) (Performance Met)
+G9209 G8461
+
+Hepatitis C quantitative RNA testing not performed between 4-12 weeks after the initiation of antiviral treatment for documented reason(s) (e.g., patients whose treatment was discontinued during the testing period prior to testing, other medical reasons, patient declined, other patient reasons).\\nAND Patient receiving antiviral treatment for hepatitis C during the measurement period.
+(G9210, G8461) (Other Performance Exclusion)
+G9210 G8461
+
+Clinician documented that patient is not an eligible candidate for quantitative RNA testing; patient not receiving antiviral treatment for Hepatitis C.
+(G8460) (Other Performance Exclusion)
+G8460
+
+Hepatitis C quantitative RNA testing was not documented as performed between 4-12 weeks after the initiation of antiviral treatment, reason not given.\\nAND Patient receiving antiviral treatment for hepatitis C during the measurement period.
+(G9211, G8461) (Performance Not Met)
+G9211 G8461
+
+X
+y
+y
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient’s current medications.
+
+Current medications documented.
+(G8427) (Performance Met)
+G8427
+
+Eligible professional attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible professional.
+(G8430) (Other Performance Exclusion)
+G8430
+
+Current list of medications not documented as obtained, updated, or reviewed by the eligible professional, reason not given.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0183
+(NQF #0399)
+
+Hepatitis C: Hepatitis A Vaccination
+National Quality Strategy Domain: Community/Population Health
+
+Did patient receive at least one injection of hepatitis A vaccine, have documented immunity to hepatitis A?
+Includes at least one injection of hepatitis A vaccine during a current or prior visit, or previous receipt from another provider.
+
+Hepatitis A vaccine injection administered or previously received.
+(4148F) (Performance Met)
+4148F
+
+Patient has documented immunity to hepatitis A.
+(3215F) (Performance Met)
+3215F
+
+Documentation of medical reason(s) for not administering at least one injection of hepatitis A vaccine (eg, allergy or intolerance to a known component of the vaccine, other medical reasons).
+(4148F:1P) (Medical Performance Exclusion)
+4148F:1P
+
+Documentation of patient reason(s) for not administering at least one injection of hepatitis A vaccine (eg, patient declined, insurance coverage, other patient reasons).
+(4148F:2P) (Patient Performance Exclusion)
+4148F:2P
+
+Hepatitis A vaccine not received, reason not otherwise specified.
+(4148F:8P) (Performance Not Met)
+4148F:8P
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons).
+(4004F:1P) (Medical Performance Exclusion)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+
+X
+y
+y
+
+0390
+(NQF #0000)
+
+Hepatitis C: Discussion and Shared Decision Making Surrounding Treatment Options
+National Quality Strategy Domain: Person and Caregiver-Centered Experience and Outcomes
+
+Did the physician review the range of treatment options appropriate to patient's genotype and demonstrate a shared decision making approach with the patient?
+.
+
+Documentation in the patient record of a discussion between the physician/clinician and the patient that includes all of the following: treatment choices appropriate to genotype, risks and benefits, evidence of effectiveness, and patient preferences toward the outcome of the treatment.
+(G9399) (Performance Met)
+G9399
+
+Documentation of medical or patient reason(s) for not discussing treatment options. Medical reasons: Patient is not a candidate for treatment due to advanced physical or mental health comorbidity (including active substance use); currently receiving antiviral treatment; successful antiviral treatment (with sustained virologic response) prior to reporting period; other documented medical reasons. Patient reasons: Patient unable or unwilling to participate in the discussion or other patient reasons.
+(G9400) (Other Performance Exclusion)
+G9400
+
+No documentation of a discussion in the patient record of a discussion between the physician or other qualified healthcare professional and the patient that includes all of the following: treatment choices appropriate to genotype, risks and benefits, evidence of effectiveness, and patient preferences toward treatment.
+(G9401) (Performance Not Met)
+G9401
+
+X
+y
+y
+
+0401
+(NQF #0000)
+
+Hepatitis C: Screening for Hepatocellular Carcinoma (HCC) in Patients with Cirrhosis
+National Quality Strategy Domain: Effective Clinical Care
+
+Did chronic hepatitis C cirrhosis patient undergo abdominal imaging with either ultrasound, contrast enhanced CT or MRI for hepatocellular carcinoma (HCC) at least once within the 12 month reporting period?
+.
+
+Patient underwent abdominal imaging with ultrasound, contrast enhanced CT or contrast MRI for HCC.
+(G9455) (Performance Met)
+G9455
+
+Documentation of medical or patient reason(s) for not ordering or performing screening for HCC. Medical reason: Comorbid medical conditions with expected survival <5 years, hepatic decompensation and not a candidate for liver transplantation, or other medical reasons. Patient reasons: Patient declined or other patient reasons (e.g., cost of tests, time related to accessing testing equipment).
+(G9456) (Other Performance Exclusion)
+G9456
+
+Patient did not undergo abdominal imaging and did not have a documented reason for not undergoing abdominal imaging in the reporting period.
+(G9457) (Performance Not Met)
+G9457
+
+X
+y
+n
+
+
+

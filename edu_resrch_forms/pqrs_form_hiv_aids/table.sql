@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS pqrs_form_hiv_aids (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `date` datetime DEFAULT NULL,
+  `pid` bigint(20) DEFAULT NULL,
+  `user` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `groupname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `authorized` tinyint(4) DEFAULT NULL,
+  `activity` tinyint(4) DEFAULT NULL, 
+  `purpose` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `HIV_AIDS0047` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `HIV_AIDS0134` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `HIV_AIDS0160` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `HIV_AIDS0205` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `HIV_AIDS0226` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `HIV_AIDS0338` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `HIV_AIDS0339` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `HIV_AIDS0340` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `recommendation` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `finalize` varchar(3) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)

@@ -1,0 +1,121 @@
+Total Knee Replacement
+0130
+(NQF #0419)
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+Are current medications documented in the patient's medical record?
+Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient’s current medications.
+
+Current medications documented.
+(G8427) (Performance Met)
+G8427
+
+Eligible professional attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible professional.
+(G8430) (Other Performance Exclusion)
+G8430
+
+Current list of medications not documented as obtained, updated, or reviewed by the eligible professional, reason not given.
+(G8428) (Performance Not Met)
+G8428
+X
+y
+y
+
+0226
+(NQF #0028)
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons).
+(4004F:1P) (Medical Performance Exclusion)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+X
+y
+y
+
+0350
+(NQF #0000)
+Total Knee Replacement: Shared Decision-Making: Trial of Conservative (Non-surgical) Therapy
+National Quality Strategy Domain: Communication and Care Coordination
+Were alternatives discussed and documented and did patient share in decision making for their total knee replacement?
+.
+Patients with documented shared decision-making including discussion of conservative (non-surgical) therapy (e.g., NSAIDs, analgesics, weight loss, exercise, injections) prior to the procedure.
+(G9296) (Performance Met)
+G9296
+
+Shared decision-making including discussion of conservative (non-surgical) therapy (e.g. NSAIDs, analgesics, weight loss, exercise, injections) prior to the procedure not documented, reason not given.
+(G9297) (Performance Not Met)
+G9297
+X
+y
+y
+0351
+(NQF #0000)
+Total Knee Replacement: Venous Thromboembolic and Cardiovascular Risk Evaluation
+National Quality Strategy Domain: Patient Safety
+Was patient evaluated for risk factors prior to the TKR procedure?
+Presence or absence of venous thromboembolic and cardiovascular risk factors within 30 days prior to the procedure (e.g., history of DVT, PE, MI, arrhythmia and stroke).
+
+Patients who are evaluated for venous thromboembolic and cardiovascular risk factors within 30 days prior to the procedure (e.g. history of DVT, PE, MI, arrhythmia and stroke).
+(G9298) (Performance Met)
+G9298
+
+Patients who are not evaluated for venous thromboembolic and cardiovascular risk factors within 30 days prior to the procedure including (e.g. history of DVT, PE, MI, arrhythmia and stroke), reason not given.
+(G9299) (Performance Not Met)
+G9299
+X
+y
+y
+
+0352
+(NQF #0000)
+Total Knee Replacement: Preoperative Antibiotic Infusion with Proximal Tourniquet
+National Quality Strategy Domain: Patient Safety
+Did patient have the prophylactic antibiotic completely infused prior to the inflation of the proximal tourniquet?
+.
+Patients who had the prophylactic antibiotic completely infused prior to the inflation of the proximal tourniquet.
+(G9301) (Performance Met)
+G9301
+
+Documentation of medical reason(s) for not completely infusing the prophylactic antibiotic prior to the inflation of the proximal tourniquet (e.g., a tourniquet was not used).
+(G9300) (Medical Performance Exclusion)
+G9300
+
+Prophylactic antibiotic not completely infused prior to the inflation of the proximal tourniquet, reason not given.
+(G9302) (Performance Not Met)
+G9302
+X
+y
+y
+
+0353
+(NQF #0000)
+Total Knee Replacement: Identification of Implanted Prosthesis in Operative Report
+National Quality Strategy Domain: Patient Safety
+Did patient's operative report identify the prosthetic implant specifications including the prosthetic implant manufacturer, the brand name of the prosthetic implant and the size of each prosthetic implant?
+.
+Operative report identifies the prosthetic implant specifications including the prosthetic implant manufacturer, the brand name of the prosthetic implant and the size of each prosthetic implant.
+(G9304) (Performance Met)
+G9304
+
+Operative report does not identify the prosthetic implant specifications including the prosthetic implant manufacturer, the brand name of the prosthetic implant and the size of each prosthetic implant, reason not given.
+(G9303) (Performance Not Met)
+G9303
+X
+y
+n

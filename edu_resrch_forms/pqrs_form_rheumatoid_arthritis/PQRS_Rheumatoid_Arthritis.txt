@@ -1,0 +1,230 @@
+Rheumatoid Arthritis
+0108
+(NQF #0054)
+Rheumatoid Arthritis (RA): Disease Modifying Anti-Rheumatic Drug (DMARD) Therapy
+National Quality Strategy Domain: Effective Clinical Care
+Was patient prescribed, dispensed, or administered at least one disease modifying anti-rheumatic drug (DMARD) during the measurement period?
+May include prescription given to the patient for DMARD therapy at one or more visits in the 12-month period OR patient already taking DMARD therapy as documented in current medication list.
+
+Disease modifying anti-rheumatic drug therapy prescribed, dispensed, or administered.
+(4187F)(Performance Met)
+4187F
+
+Documentation of medical reason(s) for not prescribing, dispensing, or administering disease modifying anti-rheumatic drug therapy (ie, patients with a diagnosis of HIV or pregnancy)
+(4187F:1P)(Medical Performance Exclusion)
+4187F:1P
+
+Disease modifying anti-rheumatic drug therapy was not prescribed, dispensed, or administered, reason not otherwise specified.
+(4187F:8P)(Performance Not Met)
+4187F:8P
+X
+y
+y
+0128
+(NQF 0421)
+Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health\nNOTE: Normal parameters:\nAge 65 years and older BMI  23 and < 30 kg/m2\n
+Age 18 - 64 years BMI >= 18.5 and < 25 kg/m2
+Was height and weight measured and recorded within 6 months of the encounter?
+BMI is documented within normal parameters and no follow-up plan is required.
+(G8420) (Performance Met)
+G8420
+BMI is documented above normal parameters and a follow-up plan is documented.
+(G8417) (Performance Met)
+G8417
+BMI is documented below normal parameters and a follow-up plan is documented.
+(G8418) (Performance Met)
+G8418
+BMI not documented and no reason is given.
+(G8421) (Performance Not Met)
+G8421
+BMI documented outside normal parameters, no follow-up plan documented, no reason given
+(G8419) (Performance Not Met)
+G8419
+X
+y
+y
+0131
+(NQF 0420)
+Pain Assessment and Follow-Up
+National Quality Strategy Domain: Communication and Care Coordination
+Was pain assessed using a standardized tool and documented if pain is present?
+Documentation of pain assessment for patients aged 18 and older.
+Pain assessment documented as positive using a standardized tool AND a follow-up plan is documented.
+(G8730)(Performance Met)
+G8730
+Pain assessment using a standardized tool is documented as negative, no follow-up plan required.
+(G8731)(Performance Met)
+G8731
+Pain assessment NOT documented as being performed, documentation the patient is not eligible for a pain assessment using a standardized tool.
+(G8442) (Other Performance Exclusion)
+G8442
+Pain assessment documented as positive, follow-up plan not documented, documentation the patient is not eligible.
+(G8939) (Other Performance Exclusion)
+G8939
+No documentation of pain assessment, reason not given.
+(G8732) (Performance Not Met)
+G8732
+Pain assessment documented as positive using a standardized tool, follow-up plan not documented, reason not given.
+(G8509) (Performance Not Met)
+G8509
+X
+y
+y
+0176
+(NQF#0000)
+Rheumatoid Arthritis (RA): Tuberculosis Screening
+National Quality Strategy Domain: Effective Clinical Care
+Is patient for whom a TB screening was performed and results interpreted within 6 months prior to receiving a first course of therapy using a biologic disease-modifying anti-rheumatic drug?
+Includes Adalimunab, Etanercept, Infliximab, Abatacept, Anakinra (Rituximab is excluded).
+
+TB screening performed and results interpreted within six months prior to initiation of first-time biologic disease modifying anti-rheumatic drug therapy for RA.\\nAND Patient receiving first-time biologic disease modifying anti-rheumatic drug therapy for rheumatoid arthritis.
+(3455F, 4195F)(Performance Met)
+3455F 4195F
+
+Documentation of medical reason for not screening for TB or interpreting results (ie, patient positive for TB and documentation of past treatment; patient who has recently completed a course of anti-TB therapy).\\nAND Patient receiving first-time biologic disease modifying anti-rheumatic drug therapy for rheumatoid arthritis.
+(3455F:1P, 4195F)(Medical Performance Exclusion)
+3455F:1P 4195F
+
+Patient not receiving first-time biologic disease modifying anti-rheumatic drug therapy for rheumatoid arthritis.
+(4196F)(Other Performance Exclusion)
+4196F
+
+TB screening not performed or results not interpreted, reason not otherwise specified.\\nAND Patient receiving first-time biologic disease modifying anti-rheumatic drug therapy for rheumatoid arthritis.
+(3455F:8P, 4195F) (Performance Not Met)
+3455F:8P 4195F
+X
+y
+y
+
+0177
+(NQF#0000)
+Rheumatoid Arthritis (RA): Periodic Assessment of Disease Activity
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient with a rheumatoid arthritis diagnosis undergo an assessment and classification of disease activity within 12 months?
+Patients with disease activity assessed by a standardized descriptive or numeric scale or composite index and classified into one of the following categories: low, moderate or high, at least once within 12 months.
+Rheumatoid arthritis (RA) disease activity, low.
+(3470F) (Performance Met)
+3470F
+
+Rheumatoid arthritis (RA) disease activity, moderate.
+(3471F)(Performance Met)
+3471F
+
+Rheumatoid arthritis (RA) disease activity, high. 
+(3472F)(Performance Met)
+3472F
+
+Disease activity not assessed and classified, reason not otherwise specified.
+(3470F:8P)(Performance Not Met) 
+3470F
+X
+y
+y
+
+
+0178
+(NQF#0000)
+
+Rheumatoid Arthritis (RA): Functional Status Assessment
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient with diagnosis of rheumatoid arthritis (RA) undergo a functional status assessment at least once within 12 months?
+.
+
+Functional status assessed.
+(1170F)(Performance Met)
+1170F
+
+Functional status not assessed, reason not otherwise specified.
+(1170F:8P)(Performance Not Met)
+1170F:8P
+
+X
+y
+y
+
+0179
+(NQF#0000)
+
+Rheumatoid Arthritis (RA): Assessment and Classification of Disease Prognosis
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient with diagnosis of rheumatoid arthritis (RA) undergo an assessment and classification of disease prognosis at least once within 12 months?
+Patients with at least one documented assessment and classification (good/poor) of disease prognosis utilizing clinical markers of poor prognosis within 12 months.
+
+Disease prognosis for rheumatoid arthritis assessed, poor prognosis documented.
+(3475F)(Performance Met)
+3475F
+
+Disease prognosis for rheumatoid arthritis assessed, good prognosis documented.
+(3476F)(Performance Met)
+3476F
+
+Disease prognosis for rheumatoid arthritis not assessed and classified, reason not otherwise specified.
+(3475F:8P)(Performance Not Met)
+3475F:8P 
+
+X
+y
+y
+
+0180
+(NQF#0000)
+
+Rheumatoid Arthritis (RA): Glucocorticoid Management
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient with diagnosis of rheumatoid arthritis (RA) undergo assessment for glucocorticoid use and, for those on prolonged doses of prednisone = 10 mg daily (or equivalent) with improvement or no change in disease activity, documentation of glucocorticoid management plan within 12 months.
+Patients aged 18 and older.
+
+Patient not receiving glucocorticoid therapy.
+(4192F)(Performance Met) 
+4192F
+
+Patient receiving < 10 mg daily prednisone (or equivalent), or RA activity is worsening, or glucocorticoid use is for less than 6 months.
+(4193F)(Performance Met) 
+4193F
+
+Patient receiving = 10 mg daily prednisone (or equivalent) for longer than 6 months, and improvement or no change in disease activity.\\nAND Glucocorticoid Management Plan documented.
+(4194F, 0540F)(Performance Met) 
+4194F 0540F
+
+Documentation of medical reason(s) for not documenting glucocorticoid management plan (ie, glucocorticoid prescription is for a medical condition other than RA).\\nAND Patient receiving = 10 mg daily prednisone (or equivalent) for longer than 6 months, and improvement or no change in disease activity.
+(0540F:1P, 4194F)(Medical Performance Exclusion)
+0540F:1P 4194F
+
+Glucocorticoid dose was not documented, reason not otherwise specified.
+(4194F:8P)(Performance Not Met)  
+4194F:8P
+
+Glucocorticoid management plan not documented, reason not otherwise specified.\\nAND Patient receiving = 10 mg daily prednisone (or equivalent) for longer than 6 months, and improvement or no change in disease activity.
+(0540F:8P, 4194F)(Performance Not Met) 
+0540F:8P 4194F
+
+X
+y
+y
+
+0337
+(NQF#0000)
+
+Tuberculosis Prevention for Psoriasis, Psoriatic Arthritis and Rheumatoid Arthritis Patients on a Biological Immune Response Modifier
+National Quality Strategy Domain: Effecitve Clincal Care
+
+Does patient record inclue documented negative annual TB screening or documentation of the management of a positive TB screening test with no evidence of active tuberculosis through use of radiographic imaging (i.e., chest x-ray, CT)?
+.
+
+Documentation of negative or managed positive TB screen with further evidence that TB is not active.
+(G9359)(Performance Met) 
+G9359
+
+No documentation of negative or managed positive TB screen.
+(G9360)(Performance Not Met)
+G9360
+
+X
+y
+n
+ 

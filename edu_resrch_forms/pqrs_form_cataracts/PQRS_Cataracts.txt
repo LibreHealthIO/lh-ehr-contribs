@@ -1,0 +1,189 @@
+Cataracts
+
+0130
+(NQF #0419)
+
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+
+Are current medications documented in the patient's medical record?
+Patient’s medications obtained, updated, or reviewed, and documented.
+
+Current (or no) medications documented in the patient's medical record.
+(G8427) (Performance Met)
+G8427
+
+Patient is not eligible.
+(G8430) (Other Performance Exclusion( (emergent or urgent situation)
+G8430
+
+Current list of medications not documented, NOS.
+(G8428) (Performance Not Met)
+G8428
+
+X
+y
+y
+
+0191
+(NQF #0565)
+
+Cataracts: 20/40 or Better Visual Acuity within 90 Days Following Cataract Surgery
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient with a diagnosis of uncomplicated cataract who had cataract surgery, and no significant ocular conditions ihave best-corrected visual acuity of 20/40 or better (distance or near) achieved within 90 days following the cataract surgery?
+.
+
+Best-corrected visual acuity achieved.
+(4175F) (Performance Met)
+4175F
+
+Best-corrected visual acuity of 20/40 or better (distance or near) not achieved reason NOS.
+(4175F:8P)(Performance Not Met)
+4175F:8P
+
+X
+y
+y
+
+0192
+(NQF #0564)
+
+Cataracts: Complications within 30 Days Following Cataract Surgery Requiring Additional Surgical Procedures
+National Quality Strategy Domain: Patient Safety\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control. 
+
+Did complications occur within 30 days following cataract surgery for patients with a diagnosis of uncomplicated cataract?
+Any of the following major complications: retained nuclear fragments, endophthalmitis, dislocated or wrong power IOL, retinal detachment, or wound dehiscence
+
+Surgical procedure performed within 30 days following cataract surgery for major complications. 
+(G8627) (Performance Met, INVERSE MEASURE) (eg, retained nuclear fragments, endophthalmitis, dislocated or wrong power IOL, retinal detachment or wound dehiscence).
+G8627
+
+Surgical procedure not performed within 30 days following cataract surgery for major complication.
+(G8628) (Performance Not Met, INVERSE MEASURE)(eg, retained nuclear fragments, endophthalmitis, dislocated or wrong power IOL, retinal detachment or wound dehiscence)
+G8628
+
+X
+y
+y
+
+0226
+(NQF #0028)
+
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+
+Within the last	12 months:
+.
+
+Patient screened for tobacco use AND received tobacco cessation intervention if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use. 
+(4004F:1P) (Medical Performance Exclusion) (eg, limited life expectancy, other medical reasons)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, NOS.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+
+X
+y
+y
+
+0303
+(NQF #1536)
+
+Cataracts: Improvement in Patient’s Visual Function within 90 Days Following Cataract Surgery
+National Quality Strategy Domain: Person and Caregiver-Centered Experience and Outcomes
+
+Did patient achieve improvement in visual function within 90 days following cataract surgery, based on completing a pre-operative and post-operative visual function survey?
+.
+
+Improvement in visual function achieved.
+(G0913) (Performance Met)
+G0913
+
+Patient care survey was not completed by patient.
+(G0914) (Other Performance Exclusion)
+G0914
+
+Improvement in visual function not achieved.
+(G0915) (Performance Not Met)
+G0915
+
+X
+y
+y
+
+0304
+(NQF #0000)
+
+Cataracts: Patient Satisfaction within 90 Days Following Cataract Surgery
+National Quality Strategy Domain: Person and Caregiver-Centered Experience and Outcomes
+
+Was patient who had cataract surgery satisfied with their care within 90 days following the cataract surgery, based on completion of the Consumer Assessment of Healthcare Providers and Systems Surgical Care Survey?
+.
+
+Satisfaction with care achieved.
+(G0916) (Performance Met)
+G0916
+
+Patient care survey was not completed by patient.
+(G0917) (Other Performance Exclusion)
+G0917
+
+Satisfaction with care not achieved.
+(G0918) (Performance Not Met)
+G0918
+
+X
+y
+y
+
+0388
+(NQF #0000)
+
+Cataract Surgery with Intra-Operative Complications (Unplanned Rupture of Posterior Capsule Requiring Unplanned Vitrectomy)
+National Quality Strategy Domain: Patient Safety\\nNOTE: This is an INVERSE measure. A lower calculated performance rate for this measure indicates better clinical care or control. 
+
+Did patient experience an unplanned rupture of the posterior capsule requiring vitrectomy during cataract surgery?
+.
+
+Unplanned rupture of the posterior capsule requiring vitrectomy during cataract surgery.
+(G9389) (Performance Met, INVERSE MEASURE)
+G9389
+
+No unplanned rupture of the posterior capsule requiring vitrectomy during cataract surgery.
+(G9390) (Performance Not Met, INVERSE MEASURE)
+G9390
+
+X
+y
+y
+
+0389
+(NQF #0000)
+
+Cataract Surgery: Difference Between Planned and Final Refraction
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient undergoing cataract surgery achieve a final refraction within +/- 1.0 diopters of their planned (target) refraction?
+Include only procedures performed through September 30 of the reporting
+
+Final refraction measure achieved.
+(G9519) (Performance Met)
+G9519
+
+Final refraction measure not achieved, reason NOS.
+(G9520) (Performance Not Met)
+G9520
+
+X
+y
+n

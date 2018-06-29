@@ -1,0 +1,320 @@
+<html>
+<head>
+<link rel="stylesheet" href="/git-librehealthehr/interface/themes/style_purple.css" type="text/css">
+
+<script language="JavaScript">
+
+function openNewForm(sel) {
+ top.restoreSession();
+  FormNameValueArray = sel.split('formname=');
+  if(FormNameValueArray[1] == 'newpatient')
+   {
+    parent.location.href = sel
+   }
+  else
+   {
+	parent.Forms.location.href = sel;
+   }
+}
+function toggleFrame1(fnum) {
+  top.frames['left_nav'].document.forms[0].cb_top.checked=false;
+  top.window.parent.left_nav.toggleFrame(fnum);
+ }
+</script>
+<style type="text/css">
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30;
+}
+
+</style>
+<script type="text/javascript" language="javascript">
+
+var timeout	= 500;
+var closetimer	= 0;
+var ddmenuitem	= 0;
+var oldddmenuitem = 0;
+var flag = 0;
+
+// open hidden layer
+function mopen(id)
+{
+	// cancel close timer
+	//mcancelclosetime();
+	
+	flag=10;
+
+	// close old layer
+	//if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	//if(ddmenuitem) ddmenuitem.style.display = 'none';
+
+	// get new layer and show it
+        oldddmenuitem = ddmenuitem;
+	ddmenuitem = document.getElementById(id);
+        if((ddmenuitem.style.visibility == '')||(ddmenuitem.style.visibility == 'hidden')){
+            if(oldddmenuitem) oldddmenuitem.style.visibility = 'hidden';
+            if(oldddmenuitem) oldddmenuitem.style.display = 'none';
+            ddmenuitem.style.visibility = 'visible';
+            ddmenuitem.style.display = 'block';
+        }else{
+            ddmenuitem.style.visibility = 'hidden';
+            ddmenuitem.style.display = 'none';
+        }
+}
+// close showed layer
+function mclose()
+{
+	if(flag==10)
+	 {
+	  flag=11;
+	  return;
+	 }
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+}
+
+// close layer when click-out
+document.onclick = mclose;
+//=================================================
+function findPosX(id)
+  {
+    obj=document.getElementById(id);
+	var curleft = 0;
+    if(obj.offsetParent)
+        while(1)
+        {
+          curleft += obj.offsetLeft;
+          if(!obj.offsetParent)
+            break;
+          obj = obj.offsetParent;
+        }
+    else if(obj.x)
+        curleft += obj.x;
+   PropertyWidth=document.getElementById(id).offsetWidth;
+   if(PropertyWidth>curleft)
+    {
+	 document.getElementById(id).style.left=0;
+	}
+  }
+
+  function findPosY(obj)
+  {
+    var curtop = 0;
+    if(obj.offsetParent)
+        while(1)
+        {
+          curtop += obj.offsetTop;
+          if(!obj.offsetParent)
+            break;
+          obj = obj.offsetParent;
+        }
+    else if(obj.y)
+        curtop += obj.y;
+    return curtop;
+  }
+</script>
+
+</head>
+<body class="bgcolor2">
+<dl>
+<!--<table   style="border:solid 1px black" cellspacing="0" cellpadding="0">
+ <tr>
+    <td valign="top"></td>
+  </tr>
+</table>-->
+<!-- DISPLAYING HOOKS STARTS HERE -->
+<!-- DISPLAYING HOOKS ENDS HERE -->
+<table cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td valign="top"><ul id="sddm"><li><a href='JavaScript:void(0);' id='enc2' onclick=" return top.window.parent.left_nav.loadFrame2('enc2','RBot','patient_file/encounter/encounter_top.php')">Encounter Summary</a></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('1');" >Administrative</a><div id='1' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=fee_sheet')" href='JavaScript:void(0);'>Fee Sheet</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=misc_billing_options')" href='JavaScript:void(0);'>Misc Billing Options HCFA</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=newpatient')" href='JavaScript:void(0);'>New Encounter Form</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=procedure_order')" href='JavaScript:void(0);'>Procedure Order</a></td></tr></table></div></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('2');" >Clinical</a><div id='2' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=care_plan')" href='JavaScript:void(0);'>Care Plan</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=clinical_instructions')" href='JavaScript:void(0);'>Clinical Instructions</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=functional_cognitive_status')" href='JavaScript:void(0);'>Functional and Cognitive Status</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=observation')" href='JavaScript:void(0);'>Observation</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=ros')" href='JavaScript:void(0);'>Review Of Systems</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=reviewofs')" href='JavaScript:void(0);'>Review of Systems Checks</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=soap')" href='JavaScript:void(0);'>SOAP</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=dictation')" href='JavaScript:void(0);'>Speech Dictation</a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=vitals')" href='JavaScript:void(0);'>Vitals</a></td></tr></table></div></li><li class="encounter-form-category-li"><a href='JavaScript:void(0);' onClick="mopen('3');" >TESTING</a><div id='3' ><table border='0' cellspacing='0' cellpadding='0'><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_acute_otitis_externa')" href='JavaScript:void(0);'>Acute Otitis Externa (AOE) Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_asthma')" href='JavaScript:void(0);'>Asthma Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_chronic_kidney_disease')" href='JavaScript:void(0);'>Chronic Kidney Disease Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_diabetes')" href='JavaScript:void(0);'>Diabetes Quality Reporting </a></td></tr><tr><td style='border-top: 1px solid #000000;padding:0px;'><a onclick="openNewForm('/git-librehealthehr/interface/patient_file/encounter/load_form.php?formname=pqrs_form_heart_failure')" href='JavaScript:void(0);'>Heart Failure Quality Reporting </a></td></tr></table></div></li></table></div></li></ul><div style="clear:both"></div></td>
+  </tr>
+</table>
+</dl>
+
+</body>
+</html>
+	<html>
+	<head>
+	<link rel=stylesheet href="/git-librehealthehr/interface/themes/style_purple.css" type="text/css">
+	<title>Form: Diabetes</title>
+	</head>
+	<body background="" topmargin=0 rightmargin=0 leftmargin=2 bottommargin=0 marginwidth=2 marginheight=0>
+	<html><head>
+<link rel=stylesheet href="<?echo $css_header;?>" type="text/css">
+</head>
+<body  bgcolor="#dddddd"  topmargin=0 rightmargin=0 leftmargin=2 bottommargin=0 marginwidth=2 marginheight=0>
+<font size=2>
+<form method=post action="<?echo $rootdir;?>/forms/pqrs_form_diabetes/save.php?mode=new" name="my_form">
+<br>
+<span class="title"><center>Diabetes Quality Reporting</center></span><br><br>
+<center><a href="javascript:top.restoreSession();document.my_form.submit();" class="link_submit">[Save]</a>
+You must EDIT the form after saving and reviewing to finalize
+<a href="/git-librehealthehr/interface/patient_file/encounter/encounter_top.php" class="link_submit"
+ onclick="top.restoreSession()">[Don't Save]</a></center>
+<br>
+
+<b><u>Client and Service Information</u></b><br><br>
+<b>Name:</b>&nbsp; Jonathan&nbsp&nbsp;Test
+<br> <br>
+
+<b><u>Purpose of Form</u></b><br>
+<textarea cols=120 rows=3 wrap=virtual name="purpose" >To ensure quality care and reporting on patients with Diabetes.</textarea>
+<br><br>
+
+<table>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0001 <a target="_blank" href="#" title="(NQF 0059)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Diabetes: Hemoglobin A1c Poor Control <a target="_blank" href="#" title="National Quality Strategy Domain: Effective Clinical Care This is an INVERSE MEASURE: it is desired that performance NOT be met."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: What was the patient's most recent hemoglobin A1c level? <a target="_blank" href="#" title="Most Recent A1c?"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Diabetes0001" value="3044F">Most recent hemoglobin A1c (HbA1c) level &lt; 7.0% 
+	 <a target="_blank" href="#" title="(3044F) Performance Not Met, INVERSE MEASURE"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0001" value="3045F">Most recent hemoglobin A1c (HbA1c) level 7.0 to 9.0% 
+	 <a target="_blank" href="#" title="(3045F) Performance Not Met, INVERSE MEASURE"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0001" value="3046F">Most recent hemoglobin A1c level &gt; 9.0% 
+	 <a target="_blank" href="#" title="(3046F) Performance Met, INVERSE MEASURE"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0001" value="3046F:8P">Hemoglobin A1c level was not performed during the measurement period (12 months) 
+	 <a target="_blank" href="#" title="(3046F:8P) Performance Met, INVERSE MEASURE"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0110 <a target="_blank" href="#" title="(NQF 0041)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Preventive Care and Screening: Influenza Immunization <a target="_blank" href="#" title="National Quality Strategy Domain: Community/Population Health"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization? 
+	<p></b>
+
+
+	<input type="radio" name="Diabetes0110" value="G8482">Influenza immunization administered or previously received 
+	 <a target="_blank" href="#" title="(G8482) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0110" value="G8483">Influenza immunization not administered, reason documented 
+	 <a target="_blank" href="#" title="(G8483) (Performance Met) (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0110" value="G8484">Influenza immunization was not administered, reason not given 
+	 <a target="_blank" href="#" title="(G8484) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0117 <a target="_blank" href="#" title="(NQF 0055)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Diabetes: Eye Exam <a target="_blank" href="#" title="National Quality Strategy Domain: Effective Clinical Care"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Did the patient receive an eye screening for diabetic retinal disease this year? <a target="_blank" href="#" title="A retinal or dilated eye exam by an eye care professional this year or had no evidence of retinopathy in an eye exam in the previous year."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 
+	<p></b>
+
+
+	<input type="radio" name="Diabetes0117" value="2022F">Dilated retinal eye exam with interpretation by an ophthalmologist or optometrist documented and reviewed 
+	 <a target="_blank" href="#" title="(2022F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0117" value="2024F">Seven standard field stereoscopic photos with interpretation by an ophthalmologist or optometrist documented and reviewed 
+	 <a target="_blank" href="#" title="(2024F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0117" value="2026F">Eye imaging validated to match diagnosis from seven standard field stereoscopic photos results documented and reviewed 
+	 <a target="_blank" href="#" title="(2026F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0117" value="3072F">Low risk for retinopathy (no evidence of retinopathy in the prior year) &#8225 
+	 <a target="_blank" href="#" title="(3072F) (Performance Met)&lt;br&gt; &#8225 NOTE: This code can only be used if the encounter was during the measurement period because it indicates that the patient had &quot;no evidence of retinopathy in the prior year&quot;. This code definition indicates results were negative, therefore a result is not required."><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0117" value="2022F:8P">Dilated eye exam was not performed, reason not otherwise specified 
+	 <a target="_blank" href="#" title="(2022F:8P) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0119 <a target="_blank" href="#" title="(NQF 0062)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Diabetes: Medical Attention for Nephropathy <a target="_blank" href="#" title="National Quality Strategy Domain: Effective Clinical Care"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Did the patient receive a nephropathy screening test or have evidence of nephropathy? 
+	<p></b>
+
+
+	<input type="radio" name="Diabetes0119" value="3060F">Positive microalbuminuria test result documented and reviewed 
+	 <a target="_blank" href="#" title="(3060F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0119" value="3061F">Negative microalbuminuria test result documented and reviewed 
+	 <a target="_blank" href="#" title="(3061F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0119" value="3062F">Positive macroalbuminuria test result documented and reviewed 
+	 <a target="_blank" href="#" title="(3062F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0119" value="3066F">Documentation of treatment for nephropathy 
+	 <a target="_blank" href="#" title="(3066F) (Performance Met) (e.g. patient receiving dialysis, patient being treated for ESRD, CRF, ARF, or renal insufficiency, any visit to a nephrologist)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0119" value="G8506">Patient receiving angiotensin converting enzyme (ACE) inhibitor or angiotensin receptor blocker (ARB) therapy 
+	 <a target="_blank" href="#" title="(G8506) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0119" value="3060F:8P">Nephropathy screening was not performed, reason not otherwise specified 
+	 <a target="_blank" href="#" title="(3060F with 8P) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0126 <a target="_blank" href="#" title="(NQF 0417)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Diabetes Mellitus: Diabetic Foot and Ankle Care, Peripheral Neuropathy -- Neurological Evaluation <a target="_blank" href="#" title="National Quality Strategy Domain: Effective Clinical Care"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Did the patient have a lower extremity neurological exam performed at least once within the last 12 months? 
+	<p></b>
+
+
+	<input type="radio" name="Diabetes0126" value="G8404">Lower extremity neurological exam performed and documented 
+	 <a target="_blank" href="#" title="(G8404) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0126" value="G8405">Lower extremity neurological exam not performed 
+	 <a target="_blank" href="#" title="(G8405) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td> <br><p><br>
+	<b>
+	Measure #0226 <a target="_blank" href="#" title="(NQF 0028)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> -- Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention <a target="_blank" href="#" title="National Quality Strategy Domain: Community/Population Health"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	</b>
+	<p><b>
+	Question: Within the last 24 months: 
+	<p></b>
+
+
+	<input type="radio" name="Diabetes0226" value="4004F">Patient screened for tobacco use AND received tobacco cessation intervention if identified as a tobacco user 
+	 <a target="_blank" href="#" title="(4004F) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0226" value="4004F:1P">Documentation of medical reason(s) for not screening for tobacco use 
+	 <a target="_blank" href="#" title="(eg, limited life expectancy, other) (4004F:1P) (Performance Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+
+	<input type="radio" name="Diabetes0226" value="4004F:8P">Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified 
+	 <a target="_blank" href="#" title="(4004F:8P) (Performance Not Met)"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tango-style_question_icon.svg" height="13px"/></a> 	<br>
+
+<tr>	<td>	<p><br><p>	</td> </tr>
+
+<tr>	<td>
+	<b>Additional notes and recommendations:</b><br>
+	<textarea cols=83 rows=1 wrap=virtual  name="recommendation" ></textarea><br><br>
+	<br><br>
+</td>	</tr>
+
+<tr>	<td>
+	<center><a href="javascript:top.restoreSession();document.my_form.submit();" class="link_submit">[Save]</a>
+	<a href="/git-librehealthehr/interface/patient_file/encounter/encounter_top.php" class="link_submit"
+ 	onclick="top.restoreSession()">[Don't Save]</a></center>
+</td></tr>
+
+</table>
+
+</form>
+	</body>
+	</html>
+	

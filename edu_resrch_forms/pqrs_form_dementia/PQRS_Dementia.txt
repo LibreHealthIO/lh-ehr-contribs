@@ -1,0 +1,287 @@
+Dementia
+
+0047
+(NQF #0326)
+
+Care Plan
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was advance care plan or surrogate decision maker documented in the medical record?
+If patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning, report 1124F.
+
+Advanced care planning discussed and documented.
+(1123F) (Performance Met)
+1123F
+
+Advanced care planning discussed and documented; patient did not wish or was not able to name a surrogate decision marker or provide an advance care plan, or patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning.
+(1124F) (Performance Met)
+1124F
+
+Advance care planning not documented, reason not otherwise specified.
+(1123F:8P) (Performance Not Met)
+1123F:8P
+
+X
+y
+y
+
+0134
+(NQF 0418)
+
+Preventive Care and Screening: Screening for Clinical Depression and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health
+
+Was patient screened for clinical depression with a standard screening tool AND if positive, a follow-up plan is documented.
+Patients aged 12 and older screened for depression with a follow-up plan on the date of the encounter.
+
+Screening for clinical depression is documented as being positive AND a follow-up plan is documented.
+(G8431) (Performance Met)
+G8431
+
+Screening for clinical depression is documented as negative, a follow-up plan is not required.
+(G8510) (Performance Met)
+G8510
+
+Screening for clinical depression not documented, documentation stating the patient is not eligible.
+(G8433) (Other Performance Exclusion)
+G8433
+
+Screening for clinical depression documented as positive, a follow-up plan not documented, documentation stating the patient is not eligible.
+(G8940) (Other Performance Exclusion)
+G8940
+
+Clinical depression screening not documented, reason not given
+(G8432) (Performance Not Met)
+G8432
+
+Screening for clinical depression documented as positive, follow-up plan not documented, reason not given
+(G8511) (Performance Not Met)
+G8511
+
+X
+y
+y
+
+0280
+(NQF #0000)
+
+Dementia: Staging of Dementia
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient's severity of dementia classified as mild, moderate or severe at least once within a 12 month period?
+.
+
+Dementia severity classified, mild.
+(1490F) (Performance Met)
+1490F
+
+Dementia severity classified, moderate.
+(1491F) (Performance Met)
+1491F
+
+Dementia severity classified, severe.
+(1493F) (Performance Met)
+1493F
+
+Dementia severity not classified, reason not otherwise specified.
+(1490F:8P) (Performance Not Met)
+1490F:8P
+
+X
+y
+y
+
+0281
+(NQF #0000)
+
+Dementia: Cognitive Assessment
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient's assessment of cognition results reviewed at least once within a 12 month period?
+.
+
+Cognition assessed and reviewed.
+(1494F) (Performance Met)
+1494F
+
+Documentation of medical reason(s) for not assessing cognition (eg, patient with very advanced stage dementia, other medical reason).
+(1494F:1P) (Medical Performance Exclusion)
+1494F:1P
+
+Documentation of patient reason(s) for not assessing cognition.
+(1494F:2P) (Patient Performance Exclusion)
+1494F:2P
+
+Cognition not assessed and reviewed, reason not otherwise specified.
+(1494F:8P) (Performance Not Met)
+1494F:8P
+
+X
+y
+y
+
+0282
+(NQF #0000)
+
+Dementia: Functional Status Assessment
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient's functional status performed and the results reviewed at least once within a 12 month period?
+.
+
+Functional status for dementia assessed and results reviewed.
+(1175F) (Performance Met)
+1175F
+
+Documentation of medical reason(s) for not assessing and reviewing functional status for dementia (eg, patient is severely impaired and caregiver knowledge is limited, other medical reason).
+(1175F:1P) (Medical Performance Exclusion)
+1175F:1P
+
+Functional status for dementia not assessed and results not reviewed, reason not otherwise specified.
+(1175F:8P) (Performance Not Met)
+1175F:8P
+
+X
+y
+y
+
+0283
+(NQF #0000)
+
+Dementia: Neuropsychiatric Symptom Assessment
+National Quality Strategy Domain: Effective Clinical Care
+
+Was an assessment of neuropsychiatric symptoms performed and results reviewed at least once in a 12 month period?
+.
+
+Neuropsychiatric symptoms assessed and results reviewed.
+(1181F) (Performance Met)
+1181F
+
+Neuropsychiatric symptoms not assessed and results not reviewed, reason NOS.
+(1181F:8P) (Performance Met)
+1181F:8P
+
+X
+y
+y
+
+0284
+(NQF #0000)
+
+Dementia: Management of Neuropsychiatric Symptoms
+National Quality Strategy Domain: Effective Clinical Care
+
+Did patient receive or were recommended to receive an intervention for neuropsychiatric symptoms within a 12 month period?
+.
+
+One or more neuropsychiatric symptoms and neuropsychiatric intervention ordered.
+(G8947, 4525F)(Performance Met)
+G8947 4525F
+
+One or more neuropsychiatric symptoms and neuropsychiatric intervention received.
+(G8947 4526F) (Performance Met)
+G8947 4526F
+
+No neuropsychiatric symptoms.
+(G8948) (Other Performance Exclusion)
+G8948
+
+One or more neuropsychiatric symptoms and neuropsychiatric intervention not ordered, reason NOS.
+(G8947, 4525F:8P) (Performance Not Met)
+G8947 4525F:8P
+
+Neuropsychiatric intervention not received, reason not otherwise specified.
+(4526F:8P) (Performance Not Met)
+4526F:8P
+
+X
+y
+y
+
+0286
+(NQF #0000)
+
+Dementia: Counseling Regarding Safety Concerns
+National Quality Strategy Domain: Patient Safety
+
+Was patients or their caregiver(s) counseled or referred for counseling regarding safety concerns within a 12 month period?
+.
+
+Safety counseling for dementia provided.
+(6101F) (Performance Met)
+6101F
+
+Safety counseling for dementia ordered.
+(6102F) (Performance Met)
+6102F
+
+Documentation of medical reason(s) for not providing counseling regarding safety concerns (eg, patient in palliative care, other medical reason).
+(6101F:1P) (Medical Performance Exclusion)
+6101F:1P
+
+Documentation of medical reason(s) for not ordering safety counseling (eg, patient in palliative care, other medical reason).
+(6102F:1P) (Medical Performance Exclusion)
+6102F:1P
+
+Safety counseling for dementia not provided, reason NOS.
+6101F:8P) (Performance Not Met)
+6101F:8P
+
+Safety counseling for dementia not ordered, reason NOS.
+(6102F:8P) (Performance Not Met)
+6102F:8P
+
+X
+y
+y
+
+0287
+(NQF #0000)
+
+Dementia: Counseling Regarding Risks of Driving
+National Quality Strategy Domain: Effective Clinical Care
+
+Was patient or their caregiver(s) counseled regarding the risks of driving and the alternatives to driving at least once within a 12 month period?
+.
+
+Counseling provided regarding risks of driving and the alternatives to driving.
+(6110F) (Performance Met)
+6110F
+
+Documentation of medical reason(s) for not counseling regarding the risks of driving (eg, patient is no longer driving, other medical reason).
+(6110F:1P) (Medical Performance Exclusion)
+6110F:1P
+
+Counseling regarding risks of driving and alternatives to driving not performed, reason NOS.
+(6110F:8P) (Performance Not Met)
+6110F:8P
+
+X
+y
+y
+
+0288
+(NQF #0000)
+
+Dementia: Caregiver Education and Support
+National Quality Strategy Domain: Communication and Care Coordination
+
+Was patient's caregiver(s) provided with education on dementia disease management and health behavior changes AND referred to additional resources for support within a 12 month period?
+.
+
+Caregiver provided with education and referred to additional resources for support.
+(4322F) (Performance Met)
+4322F
+
+Documentation of medical reason(s) for not providing the caregiver with education or referring to additional sources for support (eg, patient does not have a caregiver, other medical reason).
+(4322F:1P) (Medical Performance Exclusion)
+4322F:1P
+
+Caregiver not provided with education and not referred to additional resources for support, reason NOS.
+(4322F:8P) (Performance Not Met)
+4322F:8P
+
+X
+y
+n

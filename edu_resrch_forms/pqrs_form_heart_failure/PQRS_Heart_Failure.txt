@@ -1,0 +1,195 @@
+Heart Failure
+0005
+(NQF #0081)
+Heart Failure (HF): Angiotensin-Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) Therapy for Left Ventricular Systolic Dysfunction (LVSD)
+National Quality Strategy Domain: Effective Clinical Care
+Was patient prescribed or is patient currenty prescribed an ACE Inhibitor or ARB therapy?
+Definition: Prescription given to the patient for ACE inhibitor or ARB therapy at one or more visits in the measurement period OR patient already taking ACE inhibitor or ARB therapy as documented in current medication list.
+
+Angiotensin Converting Enzyme (ACE) Inhibitor or Angiotensin Receptor Blocker (ARB) therapy prescribed or currently being taken.\\nAND Left ventricular ejection fraction (LVEF) less than 40% or documentation of moderately or severely depressed left ventricular systolic function.
+(4010F, 3021F) (Performance Met)
+4010F 3021F
+
+Documentation of medical reason(s) for not prescribing ACE inhibitor or ARB therapy (eg, hypotensive patients who are at immediate risk of cardiogenic shock, hospitalized patients who have experienced marked azotemia, allergy, intolerance, other medical reasons).
+(4010F:1P) (Medical Performance Exclusion)
+4010F:1P
+
+Documentation of patient reason(s) for not prescribing ACE inhibitor or ARB therapy (eg, patient declined, other patient reasons).
+(4010F:2P) (Patient Performance Exclusion)
+4010F:2P
+
+Documentation of system reason(s) for not prescribing ACE inhibitor or ARB therapy (eg, other system reasons).\\nAND Left ventricular ejection fraction (LVEF) less than 40% or documentation of moderately or severely depressed left ventricular systolic function.
+(4010F:3P, 3021F) (System Performance Exclusion)
+4010F:3P 3021F
+
+Left ventricular ejection fraction (LVEF) greater than or equal to 40% or documentation as normal or mildly depressed left ventricular systolic function.
+(3022F)(Other Performance Exclusion)
+3022F
+
+Left ventricular ejection fraction (LVEF) was not performed or documented.
+(3021F:8P) (Other Performance Exclusion)
+3021F:8P
+
+Angiotensin converting enzyme (ACE) inhibitor or angiotensin receptor blocker (ARB) therapy was not prescribed, reason not otherwise specified.\\nAND Left ventricular ejection fraction (LVEF) less than 40% or documentation of moderately or severely depressed left ventricular systolic function.
+(4010F:8P, 3021F) (Performance Not Met)
+4010F:8P 3021F
+X
+y
+y
+
+0008
+(NQF #0083)
+Heart Failure (HF): Beta-Blocker Therapy for Left Ventricular Systolic Dysfunction (LVSD)
+National Quality Strategy Domain: Effective Clinical Care
+Was patient prescribed a beta-blocker therapy within a 12 month period in an outpatient setting?
+For patients with prior LVEF < 40%, beta-blocker therapy should include bisoprolol, carvedilol, or sustained release metoprolol succinate.
+
+Beta-blocker therapy prescribed.\\nAND Left ventricular ejection fraction (LVEF) < 40% or documentation of moderately or severely depressed left ventricular systolic function. 
+(G8450, G8923) (Performance Met)
+G8450 G8923
+
+Beta-Blocker Therapy for LVEF < 40% not prescribed for reasons documented by the clinician (e.g., low blood pressure, fluid overload, asthma, patients recently treated with an intravenous positive inotropic agent, allergy, intolerance, other medical reasons, patient declined, or other reasons attributable to the healthcare system).\\nAND Left ventricular ejection fraction (LVEF) < 40% or documentation of moderately or severely depressed left ventricular systolic function. 
+(G8451, G8923) (Other Performance Exclusion)
+G8451 G8923
+
+Left ventricular ejection fraction (LVEF) = 40% or documentation as normal or mildly depressed left ventricular systolic function.
+(G8395)(Other Performance Exclusion)
+G8395
+
+Left ventricular ejection fraction (LVEF) not performed or documented.
+(G8396)(Other Performance Exclusion)
+G8396
+
+Beta-blocker therapy not prescribed.\\nAND Left ventricular ejection fraction (LVEF) < 40% or documentation of moderately or severely depressed left ventricular systolic function. 
+(G8452, G8923) (Performance Not Met)
+G8452 G8923
+X
+y
+y
+
+
+0047
+(NQF #0326)
+Care Plan
+National Quality Strategy Domain: Communication and Care Coordination
+Was advance care plan or surrogate decision maker documented in the medical record?
+If patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning, report 1124F.
+
+Advanced care planning discussed and documented.
+(1123F) (Performance Met)
+1123F
+
+Advanced care planning discussed and documented; patient did not wish or was not able to name a surrogate decision marker or provide an advance care plan, or patient’s cultural and/or spiritual beliefs preclude a discussion of advance care planning.
+(1124F) (Performance Met)
+1124F
+
+Advance care planning not documented, reason not otherwise specified.
+(1123F:8P) (Performance Not Met)
+1123F:8P
+X
+y
+y
+
+0110
+(NQF 0041)
+Preventive Care and Screening: Influenza Immunization
+National Quality Strategy Domain: Community/Population Health
+
+Did patient receive an influenza immunization for this flu season OR report a previous receipt of an influenza immunization?
+
+Patients 6 months and older seen for a visit between October 1 and March 31 OR who reported previous receipt of an influenze immunization.
+
+Influenza immunization administered or previously received.
+(G8482) (Performance Met)
+G8482
+
+Influenza immunization not administered, reason documented. (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons).
+(G8483) (Performance Met)
+G8483
+
+Influenza immunization was not administered, reason not given.
+(G8484) (Performance Not Met)
+G8484
+X
+y
+y
+
+0128
+(NQF #0421)
+Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan
+National Quality Strategy Domain: Community/Population Health\\nNOTE: Normal parameters:\\nAge 65 years and older BMI >= 23 and < 30 kg/m2\\nAge 18 - 64 years BMI >= 18.5 and < 25 kg/m2.
+
+Was height and weight measured and recorded within 6 months of the encounter and, if BMI is outside of normal parameters, was a follow-up plan documented?
+A patient is not eligible if one or more of the following reasons are documented: Patient is receiving palliative care, is pregnant, refuses BMI measurement, and any other reason documented in the medical record by the provider why BMI measurement was not appropriate.
+
+BMI is documented within normal parameters and no follow-up plan is required.
+(G8420) (Performance Met)
+G8420
+
+BMI is documented above normal parameters and a follow-up plan is documented.
+(G8417) (Performance Met)
+G8417
+
+BMI is documented below normal parameters and a follow-up plan is documented.
+(G8418) (Performance Met)
+G8418
+
+BMI not documented and no reason is given.
+(G8421) (Performance Not Met)
+G8421
+
+BMI documented outside normal parameters, no follow-up plan documented, no reason given.
+(G8419) (Performance Not Met)
+G8419
+X
+y
+y
+
+0130
+(NQF #0419)
+Documentation of Current Medications in the Medical Record
+National Quality Strategy Domain: Patient Safety
+Are current medications documented in the patient's medical record?
+Eligible professional attests to documenting in the medical record they obtained, updated, or reviewed the patient’s current medications.
+
+Current medications documented.
+(G8427) (Performance Met)
+G8427
+
+Eligible professional attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible professional.
+(G8430) (Other Performance Exclusion)
+G8430
+
+Current list of medications not documented as obtained, updated, or reviewed by the eligible professional, reason not given.
+(G8428) (Performance Not Met)
+G8428
+X
+y
+y
+
+0226
+(NQF #0028)
+Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention
+National Quality Strategy Domain: Community / Population Health
+Was patient screened for tobacco use within 24 months AND given tobacco cessation interventionn if identified as a tobacco user?
+
+Tobacco use includes use of any type of tobacco; tobacco cessation intervention includes brief counseling (3 minutes or less), and/or pharmacotherapy.
+
+Patient screened for tobacco use AND received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user.
+(4004F) (Performance Met)
+4004F
+
+Current tobacco non-user.
+(1036F) (Performance Met)
+1036F
+
+Documentation of medical reason(s) for not screening for tobacco use (eg, limited life expectancy, other medical reasons).
+(4004F:1P) (Medical Performance Exclusion)
+4004F:1P
+
+Tobacco screening OR tobacco cessation intervention not performed, reason not otherwise specified.
+(4004F:8P) (Performance Not Met)
+4004F:8P
+X
+y
+n
